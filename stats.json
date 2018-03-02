@@ -1,0 +1,72 @@
+{
+  "assetsByChunkName": {
+    "path---typography": [
+      "path---typography-a0e39f21c11f6a62c5ab.js",
+      "path---typography-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-709a56c3c9a8e36997e8.js",
+      "component---src-pages-index-js-709a56c3c9a8e36997e8.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-typography-js": [
+      "component---src-pages-typography-js-d889f4ecb756f34afc34.js",
+      "component---src-pages-typography-js-d889f4ecb756f34afc34.js.map"
+    ],
+    "component---src-pages-color-js": [
+      "component---src-pages-color-js-cf970f79d67cf8aea723.js",
+      "component---src-pages-color-js-cf970f79d67cf8aea723.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-ef2c53d6f1a4bc8504e3.js",
+      "component---src-layouts-index-js-ef2c53d6f1a4bc8504e3.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---depth": [
+      "path---depth-a0e39f21c11f6a62c5ab.js",
+      "path---depth-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-c3a5725e1a62f1f0bc7c.js",
+      "commons-c3a5725e1a62f1f0bc7c.js.map"
+    ],
+    "component---src-pages-space-js": [
+      "component---src-pages-space-js-d2d17c816e9768f823b3.js",
+      "component---src-pages-space-js-d2d17c816e9768f823b3.js.map"
+    ],
+    "path---color": [
+      "path---color-a0e39f21c11f6a62c5ab.js",
+      "path---color-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-depth-js": [
+      "component---src-pages-depth-js-d7f536bd41342f3f7168.js",
+      "component---src-pages-depth-js-d7f536bd41342f3f7168.js.map"
+    ],
+    "app": [
+      "app-18ee7a93edd9b62e3d58.js",
+      "app-18ee7a93edd9b62e3d58.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---space": [
+      "path---space-a0e39f21c11f6a62c5ab.js",
+      "path---space-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
