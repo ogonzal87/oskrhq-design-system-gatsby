@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../components/LeftNav'
 import PrimaryColorsImg from '../assets/color-page/ds-primary-colorss.png'
+import FeedbackColorsImg from '../assets/color-page/ds-feedback-colors.png'
 
 const Color = () => (
   <div className="ds-app-grid">
@@ -15,12 +16,12 @@ const Color = () => (
         <div className="ds-color-wrapper">
           <div className="col-1">
             <h4>Brand Colors</h4>
-            <img src={PrimaryColorsImg} />
+            <img src={PrimaryColorsImg} className="brand-colors-container" />
           </div>
 
           <div className="col-1">
-            <h4>Secondary Colors</h4>
-
+            <h4>Feedback Colors</h4>
+            <img src={FeedbackColorsImg} className="feedback-colors-container" />
           </div>
         </div>
       </div>

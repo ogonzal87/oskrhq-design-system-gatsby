@@ -27,10 +27,15 @@ $content-bg-color: #F5F5F5;
     flex-direction: row;
 
     h4 {
-      margin-bottom: 20px;
+      margin-bottom: 32px;
     }
-    img {
+    .brand-colors-container {
       width: 328px;
+      margin-right: 120px;
+    }
+
+    .feedback-colors-container {
+      width: 456px;
     }
   }
 }
