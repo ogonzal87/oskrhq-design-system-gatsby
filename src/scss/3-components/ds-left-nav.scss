@@ -29,3 +29,39 @@ li {
     margin-bottom: ds-space(base);
   }
 }
+
+.ds-profile-avatar-wrapper {
+  max-height: 56px;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .ds-profile-avatar{
+    border-radius: 50%;
+    height: 54px;
+    margin: 0;
+    margin-right: 16px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: ds-font-weight(subheading, bold); 
+    }
+
+    a {
+      margin: 0;
+      color: ds-color(neutral, 500);
+
+      &:hover {
+        color: ds-color(primary, 400);
+      }
+    }
+  }
+}

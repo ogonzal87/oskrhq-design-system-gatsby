@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Logo from '../../assets/logo/ds-logo.svg'
+import DSProfileAvatar from '../ProfileAvatar'
 
 const DSLeftNav = () => (
   <div className="ds-left-nav">
@@ -13,6 +14,8 @@ const DSLeftNav = () => (
       <li><Link to="/space/">Space</Link></li>
       <li><Link to="/depth/">Depth</Link></li>
     </ul>
+
+    <DSProfileAvatar />
   </div>
 )
 
