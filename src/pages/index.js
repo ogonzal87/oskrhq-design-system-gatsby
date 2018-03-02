@@ -10,8 +10,7 @@ const IndexPage = () => (
       <div className="ds-container">
 
         <h1>Introduction</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+
 
       </div>
     </div>
