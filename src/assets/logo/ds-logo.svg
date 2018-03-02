@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="47" viewBox="0 0 159 47">
+  <defs>
+    <linearGradient id="index-a" x1="23.652%" x2="73.007%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#30A4FF"/>
+      <stop offset="100%" stop-color="#5A40EE"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <text fill="#D4B5FC" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold">
+      <tspan x="58" y="43">UI KIT V0.0.1</tspan>
+    </text>
+    <text fill="#5252ED" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold">
+      <tspan x="57" y="28">OSKRHQ</tspan>
+    </text>
+    <circle cx="23.5" cy="23.5" r="23.5" fill="url(#index-a)"/>
+  </g>
+</svg>
