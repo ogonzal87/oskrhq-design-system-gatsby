@@ -8,11 +8,11 @@ const DSLeftNav = () => (
     <img src={Logo} />
 
     <ul>
-      <li><Link to="/">Introduction</Link></li>
-      <li><Link to="/color/">Color</Link></li>
-      <li><Link to="/typography/">Typography</Link></li>
-      <li><Link to="/space/">Space</Link></li>
-      <li><Link to="/depth/">Depth</Link></li>
+      <li><Link to="/" className={(location.pathname == '/' ? 'ds-nav-link-isActive' : '')}>Introduction</Link></li>
+      <li><Link to="/color/" className={(location.pathname == '/color/' ? 'ds-nav-link-isActive' : '')}>Color</Link></li>
+      <li><Link to="/typography/" className={(location.pathname == '/typography/' ? 'ds-nav-link-isActive' : '')}>Typography</Link></li>
+      <li><Link to="/space/" className={(location.pathname == '/space/' ? 'ds-nav-link-isActive' : '')}>Space</Link></li>
+      <li><Link to="/depth/" className={(location.pathname == '/depth/' ? 'ds-nav-link-isActive' : '')}>Depth</Link></li>
     </ul>
 
     <DSProfileAvatar />
