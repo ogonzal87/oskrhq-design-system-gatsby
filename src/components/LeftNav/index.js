@@ -2,17 +2,18 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Logo from '../../assets/logo/ds-logo.svg'
 import DSProfileAvatar from '../ProfileAvatar'
+import { NavLink } from 'react-router-dom'
 
 const DSLeftNav = () => (
   <div className="ds-left-nav">
     <img src={Logo} />
 
     <ul>
-      <li><Link to="/" className={(location.pathname == '/' ? 'ds-nav-link-isActive' : '')}>Introduction</Link></li>
-      <li><Link to="/color/" className={(location.pathname == '/color/' ? 'ds-nav-link-isActive' : '')}>Color</Link></li>
-      <li><Link to="/typography/" className={(location.pathname == '/typography/' ? 'ds-nav-link-isActive' : '')}>Typography</Link></li>
-      <li><Link to="/space/" className={(location.pathname == '/space/' ? 'ds-nav-link-isActive' : '')}>Space</Link></li>
-      <li><Link to="/depth/" className={(location.pathname == '/depth/' ? 'ds-nav-link-isActive' : '')}>Depth</Link></li>
+      <li><NavLink exact to="/" activeClassName="ds-nav-link-isActive">Introduction</NavLink></li>
+      <li><NavLink exact to="/color/" activeClassName="ds-nav-link-isActive">Color</NavLink></li>
+      <li><NavLink exact to="/typography/" activeClassName="ds-nav-link-isActive">Typography</NavLink></li>
+      <li><NavLink exact to="/space/" activeClassName="ds-nav-link-isActive">Space</NavLink></li>
+      <li><NavLink exact to="/depth/" activeClassName="ds-nav-link-isActive">Depth</NavLink></li>
     </ul>
 
     <DSProfileAvatar />

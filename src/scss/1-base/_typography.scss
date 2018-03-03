@@ -230,7 +230,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(display3, base);
   line-height: ds-line-height(display3, base);
   font-weight: ds-font-weight(display3, base);
-  color:       $ds-brand-text-color;
+  color:       $ds-base-text-color;
   text-rendering: optimizeLegibility;
 }
 
