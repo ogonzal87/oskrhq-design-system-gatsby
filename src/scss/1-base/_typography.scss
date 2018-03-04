@@ -61,25 +61,25 @@ $ds-font-size-data: (
 // Data for each Type Style defined in the Style Sheet. 
 $ds-line-height-data: (
   display4: (
-    base: 1.1
+    base: normal
   ),
   display3: (
-    base: 1.1
+    base: normal
   ),
   display2: (
-    base: 1.1
+    base: normal
   ),  
   display1: (
-    base: 1.1
+    base: normal
   ),
   headline: (
-    base: 1.1
+    base: normal
   ),
   title: (
-    base: 1.1
+    base: normal
   ),
   subheading: (
-    base: 1.1
+    base: normal
   ),
   body2: (
     base: 1.5
@@ -105,37 +105,38 @@ $ds-line-height-data: (
 // Data for each Type Style defined in the Style Sheet.   
 $ds-font-weight-data: (
   display4: (
-    base: $ds-base-font-weight * 1.25,
+    light: $ds-base-font-weight * .75,
+    base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),
   display3: (
-    base: $ds-base-font-weight * 1.25,
+    base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),
   display2: (
-   base: $ds-base-font-weight * 1.25,
+   base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),  
   display1: (
-    base: $ds-base-font-weight * 1.25,
+    base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),
   headline: (
-    base: $ds-base-font-weight * 1.25,
+    base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),
   title: (
-    base: $ds-base-font-weight * 1.25,
+    base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),
   subheading: (
-    base: $ds-base-font-weight * 1.50,
+    base: $ds-base-font-weight,
     semibold: $ds-base-font-weight * 1.5,
     bold: $ds-base-font-weight * 2
   ),
@@ -221,7 +222,7 @@ $ds-font-weight-data: (
 @mixin ds-display4-text-style() {
   font-size:   ds-font-size(display4, base);
   line-height: ds-line-height(display4, base);
-  font-weight: ds-font-weight(display4, base);
+  font-weight: ds-font-weight(display4, light);
   color:       $ds-base-text-color;
   text-rendering: optimizeLegibility;
 }
@@ -261,7 +262,7 @@ $ds-font-weight-data: (
 @mixin ds-title-text-style() {
   font-size:   ds-font-size(title, base);
   line-height: ds-line-height(title, base);
-  font-weight: ds-font-weight(title, base);
+  font-weight: ds-font-weight(title, bold);
   color:       $ds-base-text-color;
   text-rendering: optimizeLegibility;
 }
@@ -277,7 +278,7 @@ $ds-font-weight-data: (
 @mixin ds-body2-text-style() {
   font-size:   ds-font-size(body2, base);
   line-height: ds-line-height(body2, base);
-  font-weight: ds-font-weight(body2, base);
+  font-weight: ds-font-weight(body2, bold);
   color:       $ds-base-text-color;
 }
 
@@ -321,8 +322,60 @@ $ds-font-weight-data: (
   text-rendering: optimizeLegibility;
 }
 
+.ds-display4-text-style {
+  @include ds-display4-text-style();
+}
+
+.ds-display3-text-style {
+  @include ds-display3-text-style();
+}
+
+.ds-display2-text-style {
+  @include ds-display2-text-style();
+}
+
+.ds-display1-text-style {
+  @include ds-display1-text-style();
+}
+
+.ds-headline-text-style {
+  @include ds-headline-text-style();
+}
+
+.ds-title-text-style {
+  @include ds-title-text-style();
+}
+
+.ds-subheading-text-style {
+  @include ds-subheading-text-style();
+}
+
+.ds-body2-text-style {
+  @include ds-body2-text-style();
+}
+
+.ds-body1-text-style {
+  @include ds-body1-text-style();
+}
+
+.ds-caption {
+  margin-top: .75rem;
+  margin-bottom: 1rem;
+  @include ds-caption-text-style();
+}
+
+.ds-button-text-style {
+  @include ds-button-text-style();
+  text-transform: uppercase;
+}
+
+.ds-link-text-style {
+  @include ds-link-text-style();
+  text-decoration: none;
+}
 
 // Connecting the Typographic styles defined above to Type-HTML elements
+
 h1 {
   margin-top: 2rem;
   margin-bottom: .75rem;
@@ -360,12 +413,6 @@ p {
   margin-top: 1rem;
   margin-bottom: 1rem;
   @include ds-body1-text-style();
-}
-
-.ds-caption {
-  margin-top: .75rem;
-  margin-bottom: 1rem;
-  @include ds-caption-text-style();
 }
 
 ul, ol {

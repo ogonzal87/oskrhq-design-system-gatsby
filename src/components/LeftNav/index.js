@@ -10,8 +10,8 @@ const DSLeftNav = () => (
 
     <ul>
       <li><NavLink exact to="/" activeClassName="ds-nav-link-isActive">Introduction</NavLink></li>
-      <li><NavLink exact to="/color/" activeClassName="ds-nav-link-isActive">Color</NavLink></li>
       <li><NavLink exact to="/typography/" activeClassName="ds-nav-link-isActive">Typography</NavLink></li>
+      <li><NavLink exact to="/color/" activeClassName="ds-nav-link-isActive">Color</NavLink></li>
       <li><NavLink exact to="/space/" activeClassName="ds-nav-link-isActive">Space</NavLink></li>
       <li><NavLink exact to="/depth/" activeClassName="ds-nav-link-isActive">Depth</NavLink></li>
     </ul>

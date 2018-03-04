@@ -10,42 +10,11 @@ $content-bg-color: #F5F5F5;
   max-width: 960px;
   margin: 120px 0 120px 46px;
 
-  h1 {
-    font-weight: 800;
-  }
-
-  h3 {
-    width: 687px;
+  .subheading {
+    width: 680px;
     color: ds-color(neutral, 500);
     margin-bottom: 100px;
     line-height: 43px;
     font-weight: 300;
-  }
-  
-  .ds-color-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 80px;
-
-    img {
-      margin-bottom: 0;
-    }
-
-    h4 {
-      margin-bottom: 32px;
-    }
-    .brand-colors-container {
-      width: 328px;
-      margin-right: 30px;
-    }
-
-    .feedback-colors-container {
-      width: 456px;
-      margin-right: 30px;
-    }
-
-    .neutral-colors-container {
-      width: 114px;
-    }
   }
 }
