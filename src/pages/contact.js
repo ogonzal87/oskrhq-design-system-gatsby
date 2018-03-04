@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../components/LeftNav'
+import Highlight from 'react-highlight'
+import '../../node_modules/highlight.js/styles/dracula.css'
+
 
 const Contact = () => (
   <div className="ds-app-grid">
@@ -9,10 +12,17 @@ const Contact = () => (
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Contact</h1>
+        <script src="https://gist.github.com/ogonzal87/90381e4309044cdca78439885a47b473.js"></script>
 
-        <iframe height='265' scrolling='no' title='XZKOQK' src='//codepen.io/ogonzal87/embed/XZKOQK/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}}>See the Pen <a href='https://codepen.io/ogonzal87/pen/XZKOQK/'>XZKOQK</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
-
+        <Highlight className='sass'>
+          {`@mixin ds-display4-text-style() {
+  fontSize:   ds-font-size(display4, base);
+  line-height: ds-line-height(display4, base);
+  font-weight: ds-font-weight(display4, light);
+  color: $ds-base-text-color;
+  text-rendering: optimizeLegibility;
+}`}
+        </Highlight>
       </div>
     </div>
   </div>
