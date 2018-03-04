@@ -17,8 +17,8 @@
       "component---src-pages-typography-js-c1ec5b74547c123b3faa.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-1b3d3b211557c192523d.js",
-      "component---src-pages-contact-js-1b3d3b211557c192523d.js.map"
+      "component---src-pages-contact-js-35611e70266cd7137229.js",
+      "component---src-pages-contact-js-35611e70266cd7137229.js.map"
     ],
     "component---src-pages-color-js": [
       "component---src-pages-color-js-dd35a76ddfb6d5d7d1d0.js",
@@ -42,7 +42,9 @@
     ],
     "commons": [
       "commons-1467bab7cae923b74766.js",
-      "commons-1467bab7cae923b74766.js.map"
+      "build-js-styles.css",
+      "commons-1467bab7cae923b74766.js.map",
+      "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
       "component---src-pages-space-js-d2d17c816e9768f823b3.js",
@@ -66,7 +68,9 @@
     ],
     "app": [
       "app-7dc0ae281a6edda6f44f.js",
-      "app-7dc0ae281a6edda6f44f.js.map"
+      "build-js-styles.css",
+      "app-7dc0ae281a6edda6f44f.js.map",
+      "build-js-styles.css.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
