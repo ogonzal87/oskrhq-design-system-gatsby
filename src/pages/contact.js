@@ -14,13 +14,12 @@ const Contact = () => (
         <h1>Contact</h1>
         <script src="https://gist.github.com/ogonzal87/90381e4309044cdca78439885a47b473.js"></script>
 
-        <Highlight className='sass'>
-          {`@mixin ds-display4-text-style() {
-  fontSize:   ds-font-size(display4, base);
+        <Highlight className='scss'>
+          {`.my-new-big-text {
+  font-size:   ds-font-size(display4, base);
   line-height: ds-line-height(display4, base);
-  font-weight: ds-font-weight(display4, light);
-  color: $ds-base-text-color;
-  text-rendering: optimizeLegibility;
+  font-weight: ds-font-weight(display4, bold);
+  color:       ds-color(secondary, 600);
 }`}
         </Highlight>
       </div>

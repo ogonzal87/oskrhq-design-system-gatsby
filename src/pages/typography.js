@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../components/LeftNav'
+import Highlight from 'react-highlight'
+import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
 
 const Typography = () => (
   <div className="ds-app-grid">
@@ -73,6 +75,23 @@ const Typography = () => (
             <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 14px)</span>
           </div>
         </div>
+
+
+
+        <h4>Usage</h4>
+
+        <p>Every typographic style defined above already has a utility class you can use however you can customize them or create your own from a standard base of utitlity sass functions for <code>font-size</code>, <code>font-weight</code>, <code>line-height</code>, and <code>color</code>.</p>
+        <Highlight className='scss'>
+          {`.my-new-big-text {
+  font-size:   ds-font-size(display4, base);
+  line-height: ds-line-height(display4, base);
+  font-weight: ds-font-weight(display4, bold);
+  color:       ds-color(secondary, 600);
+}`}
+        </Highlight>
+
+        <iframe height='1027' scrolling='no' title='oskrhq-design-system-typography' src='//codepen.io/ogonzal87/embed/QQROOx/?height=1027&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/QQROOx/'>oskrhq-design-system-typography</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
+        </iframe>
       </div>
     </div>
   </div>

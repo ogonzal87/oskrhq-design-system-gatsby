@@ -172,9 +172,11 @@ $ds-font-weight-data: (
   )
 );
 
+
 /////////////////////////////////////////////////////////////////////////////
 /// Utility Typographic Functions
 /////////////////////////////////////////////////////////////////////////////
+
 /// Returns the line height for a given text style and variant.
 ///
 /// @param {String} $style - The font style.
@@ -216,8 +218,9 @@ $ds-font-weight-data: (
 }
 
 
-
-/// Mixins for each Typographic Style. These map directly to the Website's Style Sheet. 
+/////////////////////////////////////////////////////////////////////////////
+/// Mixins for each Typographic Style. These map directly to the Website's Style Sheet.
+///////////////////////////////////////////////////////////////////////////// 
 
 @mixin ds-display4-text-style() {
   font-size:   ds-font-size(display4, base);
@@ -322,6 +325,11 @@ $ds-font-weight-data: (
   text-rendering: optimizeLegibility;
 }
 
+
+/////////////////////////////////////////////////////////////////////////////
+/// Utility Classes
+///////////////////////////////////////////////////////////////////////////// 
+
 .ds-display4-text-style {
   @include ds-display4-text-style();
 }
@@ -374,33 +382,38 @@ $ds-font-weight-data: (
   text-decoration: none;
 }
 
-// Connecting the Typographic styles defined above to Type-HTML elements
+
+/////////////////////////////////////////////////////////////////////////////
+/// Connecting the Typographic styles defined above to Type-HTML elements
+///////////////////////////////////////////////////////////////////////////// 
 
 h1 {
   margin-top: 2rem;
-  margin-bottom: .75rem;
+  margin-bottom: 2rem;
   @include ds-display3-text-style();
 }
 
 h2 {
   margin-top: 1.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 2rem;
   @include ds-display2-text-style();
 }
 
 h3 {
   margin-top: 1.5rem;
-  margin-bottom: .75rem;
+  margin-bottom: 2rem;
   @include ds-display1-text-style();
 }
 
 h4 {
   margin-top: 1rem;
+  margin-bottom: 2rem;
   @include ds-headline-text-style();
 }
 
 h5 {
   margin-top: 1rem;
+  margin-bottom: .5rem;
   @include ds-title-text-style();
 }
 
