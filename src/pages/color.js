@@ -4,6 +4,8 @@ import DSLeftNav from '../components/LeftNav'
 import PrimaryColorsImg from '../assets/color-page/ds-primary-colorss.png'
 import FeedbackColorsImg from '../assets/color-page/ds-feedback-colors.png'
 import NeutralColorsImg from '../assets/color-page/ds-neutral-colors.png'
+import Highlight from 'react-highlight'
+import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
 
 const Color = () => (
   <div className="ds-app-grid">
@@ -34,6 +36,22 @@ const Color = () => (
         <p className="ds-color-page-body">All the colors above have a Base color or Hue (400). From this color you can extract shades and tints of that Heu. I am using a 10% increment and decrement.</p>
 
         <p className="ds-color-page-body">Brand Colors are the personality of your brand. They should be used as Accent colors for things like Primary Buttons, CTA's and links. Feedback colors are colors you use to comnnunicate status to a user and Nuetral Colors you use for things like copy, borders, shadows, backgrounds, etc.</p>
+
+        <h4 className="ds-usage-title">Usage</h4>
+
+        <p>Every color has a efined above already has a utility class you can use however you can customize them or create your own from a standard base of utitlity sass functions for <code>font-size</code>, <code>font-weight</code>, <code>line-height</code>, and <code>color</code>.</p>
+
+        <Highlight className='scss'>
+          {`.my-new-cool-box {
+  background: ds-color(tertiary, 400);
+  width:      100%;
+  height:     ds-space(super-loose);
+}`}
+        </Highlight>
+
+        <iframe height='507' scrolling='no' title='oskrhq-design-system-color' src='//codepen.io/ogonzal87/embed/mXZwWP/?height=507&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/mXZwWP/'>oskrhq-design-system-color</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
       </div>
     </div>
   </div>

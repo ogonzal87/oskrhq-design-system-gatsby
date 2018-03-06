@@ -81,6 +81,7 @@ const Typography = () => (
         <h4>Usage</h4>
 
         <p>Every typographic style defined above already has a utility class you can use however you can customize them or create your own from a standard base of utitlity sass functions for <code>font-size</code>, <code>font-weight</code>, <code>line-height</code>, and <code>color</code>.</p>
+
         <Highlight className='scss'>
           {`.my-new-big-text {
   font-size:   ds-font-size(display4, base);
