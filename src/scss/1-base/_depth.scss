@@ -18,7 +18,7 @@ $global-elements: (
 /// @param {String} $depth [base] - The shadow's depth.
 /// @return {List} The shadow value.
 
-@function ds-depth($depth: base) {
+@function ds-depth($depth: 100) {
   $fetched-value: map-get($shadows-data, $depth);
 
   @if type-of($fetched-value) == list {
