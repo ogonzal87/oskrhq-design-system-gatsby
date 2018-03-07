@@ -5,8 +5,8 @@
       "path---typography-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-239ff09929263b1170b6.js",
-      "component---src-pages-index-js-239ff09929263b1170b6.js.map"
+      "component---src-pages-index-js-14af363fcb496d330657.js",
+      "component---src-pages-index-js-14af363fcb496d330657.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,12 +17,12 @@
       "component---src-pages-typography-js-c5fa9438030fcf656843.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-d80c6831c4dfe0c3b22c.js",
-      "component---src-pages-contact-js-d80c6831c4dfe0c3b22c.js.map"
+      "component---src-pages-contact-js-21157379f1265bd94862.js",
+      "component---src-pages-contact-js-21157379f1265bd94862.js.map"
     ],
     "component---src-pages-color-js": [
-      "component---src-pages-color-js-99da26272d2cae0aaab5.js",
-      "component---src-pages-color-js-99da26272d2cae0aaab5.js.map"
+      "component---src-pages-color-js-026875b58ea834e1d307.js",
+      "component---src-pages-color-js-026875b58ea834e1d307.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-ef2c53d6f1a4bc8504e3.js",
@@ -41,9 +41,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-a9ca4654eefaf54c2838.js",
+      "commons-65873c5f984186a5f358.js",
       "build-js-styles.css",
-      "commons-a9ca4654eefaf54c2838.js.map",
+      "commons-65873c5f984186a5f358.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
@@ -63,13 +63,21 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-depth-js": [
-      "component---src-pages-depth-js-af9e1febb25a66d7143d.js",
-      "component---src-pages-depth-js-af9e1febb25a66d7143d.js.map"
+      "component---src-pages-depth-js-c32d124059b9db08be3c.js",
+      "component---src-pages-depth-js-c32d124059b9db08be3c.js.map"
+    ],
+    "path---motion": [
+      "path---motion-a0e39f21c11f6a62c5ab.js",
+      "path---motion-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-motion-js": [
+      "component---src-pages-motion-js-e810b52721e8fd577949.js",
+      "component---src-pages-motion-js-e810b52721e8fd577949.js.map"
     ],
     "app": [
-      "app-be65a9c94bc253cb8890.js",
+      "app-ff9d1fcb40a2719b431a.js",
       "build-js-styles.css",
-      "app-be65a9c94bc253cb8890.js.map",
+      "app-ff9d1fcb40a2719b431a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
