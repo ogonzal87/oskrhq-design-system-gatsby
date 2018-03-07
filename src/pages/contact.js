@@ -11,17 +11,10 @@ const Contact = () => (
 
     <div className="ds-main-content">
       <div className="ds-container">
-        <h1>Contact</h1>
-        <script src="https://gist.github.com/ogonzal87/90381e4309044cdca78439885a47b473.js"></script>
+        <h1>Let's Talk...</h1>
 
-        <Highlight className='scss'>
-          {`.my-new-big-text {
-  font-size:   ds-font-size(display4, base);
-  line-height: ds-line-height(display4, base);
-  font-weight: ds-font-weight(display4, bold);
-  color:       ds-color(secondary, 600);
-}`}
-        </Highlight>
+        <h2>For more info about this Design System and any others I have created, you can send me an email to <a>oscar@oskrhq.com</a></h2>
+
       </div>
     </div>
   </div>

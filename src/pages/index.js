@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../components/LeftNav'
+import logoBrush from '../assets/brush/brush.svg'
+import Splash from '../assets/brush/splash.svg'
 
 const IndexPage = () => (
   <div className="ds-app-grid">
@@ -9,8 +11,11 @@ const IndexPage = () => (
     <div className="ds-main-content">
       <div className="ds-container">
 
-        <h1>Introduction</h1>
+        <img src={logoBrush} className="ds-intro-logo-brush" />
 
+        <h3 className="subheading">A mostly reasonable and opinionated approach to building UI.</h3>
+
+        <img src={Splash} className="ds-intro-splash" />
 
       </div>
     </div>

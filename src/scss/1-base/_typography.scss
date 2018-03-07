@@ -310,11 +310,11 @@ $ds-font-weight-data: (
 }
 
 @mixin ds-link-text-style() {
-  font-size:   ds-font-size(link, base);
   line-height: ds-line-height(link, base);
   font-weight: ds-font-weight(link, base);
   color:       $ds-brand-text-color;
   text-rendering: optimizeLegibility;
+  cursor: pointer;
 }
 
 @mixin ds-list-text-style() {

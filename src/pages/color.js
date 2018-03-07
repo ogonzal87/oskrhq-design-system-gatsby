@@ -39,7 +39,7 @@ const Color = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>All UI elements make use of the sass mixin <code>ds-color($variable, range)</code>. This ensures consistency since all colors are extracted from the same base. Avoid hard coding #HEX values when creating new UI elements or pages.</p>
+        <p>All UI elements make use of the sass function <code>ds-color($variable, $range)</code>. This ensures consistency since all colors are extracted from the same base. Avoid hard coding #HEX values when creating new UI elements or pages.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-box {
