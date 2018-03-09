@@ -366,9 +366,7 @@ $ds-font-weight-data: (
   @include ds-body1-text-style();
 }
 
-.ds-caption {
-  margin-top: .75rem;
-  margin-bottom: 1rem;
+.ds-caption-text-style {
   @include ds-caption-text-style();
 }
 

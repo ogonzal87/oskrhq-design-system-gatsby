@@ -22,57 +22,57 @@ const Typography = () => (
         <div className="ds-typography-type-syles-definition-container">
           <div className="ds-typography-type-syles-definition">
             <span className="ds-display4-text-style">Display 4</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Light, 112px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Light, 112px) - <code>.ds-display4-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-display3-text-style">Display 3</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 56px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 56px) - <code>.ds-display3-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-display2-text-style">Display 2</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 45px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 45px) - <code>.ds-display2-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-display1-text-style">Display 1</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 34px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 34px) - <code>.ds-display1-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-headline-text-style">Headline</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 24px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 24px) - <code>.ds-headline-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-title-text-style">Title</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Bold, 20px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Bold, 20px) - <code>.ds-title-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-subheading-text-style">Subheading</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 16px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 16px) - <code>.ds-subheading-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-body2-text-style">Body 2</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Bold, 14px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Bold, 14px) - <code>.ds-body2-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-body1-text-style">Body 1</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 14px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 14px) - <code>.ds-body1-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-caption-text-style">Caption</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 12px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 12px) - <code>.ds-caption-text-style</code></span>
           </div>
 
           <div className="ds-typography-type-syles-definition">
             <span className="ds-button-text-style">Button</span>
-            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 14px)</span>
+            <span className="ds-caption-text-style ds-typography-caption-secondary">(Lato, Regular, 14px) - <code>.ds-button-text-style</code></span>
           </div>
         </div>
 
@@ -94,6 +94,9 @@ const Typography = () => (
         <iframe height='506' scrolling='no' title='oskrhq-design-system-typography' src='//codepen.io/ogonzal87/embed/QQROOx/?height=506&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/QQROOx/'>oskrhq-design-system-typography</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
         </iframe>
       </div>
+
+      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+
     </div>
   </div>
 )

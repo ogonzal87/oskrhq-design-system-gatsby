@@ -53,6 +53,9 @@ const Color = () => (
         </iframe>
 
       </div>
+
+      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+
     </div>
   </div>
 )

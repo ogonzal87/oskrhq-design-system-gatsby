@@ -45,8 +45,10 @@ const Depth = () => (
 
         <iframe height='398' scrolling='no' title='oskrhq-design-system-depth' src='//codepen.io/ogonzal87/embed/xYvLrw/?height=398&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/xYvLrw/'>oskrhq-design-system-depth</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
         </iframe>
-
       </div>
+
+      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+
     </div>
   </div>
 )

@@ -4,11 +4,13 @@ $content-bg-color: #F5F5F5;
   grid-area: ds-main-content;
   background: $content-bg-color;
   width: 100%;
+  position: relative;
 }
 
 .ds-container {
   max-width: 960px;
   margin: 120px 0 120px 46px;
+  position: relative;
 
   .subheading {
     width: 680px;
@@ -17,4 +19,11 @@ $content-bg-color: #F5F5F5;
     line-height: 43px;
     font-weight: 300;
   }
+}
+
+.ds-footer-text {
+  color: ds-color(neutral, 400);
+  position: absolute;
+  left: ds-space(super-loose);
+  bottom: ds-space(extra-loose);
 }

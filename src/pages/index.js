@@ -13,11 +13,14 @@ const IndexPage = () => (
 
         <img src={logoBrush} className="ds-intro-logo-brush" />
 
-        <h3 className="subheading">A mostly reasonable and opinionated approach to building UI.</h3>
+        <h3 className="subheading">A mostly reasonable although highly opinionated approach to building User Interfaces.</h3>
 
         <img src={Splash} className="ds-intro-splash" />
 
       </div>
+
+      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+
     </div>
   </div>
 )
