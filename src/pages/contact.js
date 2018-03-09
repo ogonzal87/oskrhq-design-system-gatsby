@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import DSLeftNav from '../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/dracula.css'
-import PresentationPic from '../assets/profile-pic/presentation-pic-min.jpg'
+import PresentationPic from '../assets/profile-pic/duotone.png'
 
 
 const Contact = () => (
