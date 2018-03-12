@@ -17,6 +17,8 @@ const IndexPage = () => (
 
         <img src={Splash} className="ds-intro-splash" />
 
+        <p>A style guide + UI Library of React Components bundled into one.</p>
+
       </div>
 
       <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
