@@ -4,6 +4,7 @@ import DSLeftNav from '../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/dracula.css'
 import PresentationPic from '../assets/profile-pic/duotone.png'
+import FooterMessage from '../components/FooterMessage'
 
 
 const Contact = () => (
@@ -22,7 +23,7 @@ const Contact = () => (
 
       </div>
 
-      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+      <FooterMessage />
 
     </div>
   </div>

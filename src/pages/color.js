@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../components/LeftNav'
-import PrimaryColorsImg from '../assets/color-page/ds-primary-colorss.png'
+import PrimaryColorsImg from '../assets/color-page/ds-primary-colors.png'
 import FeedbackColorsImg from '../assets/color-page/ds-feedback-colors.png'
 import NeutralColorsImg from '../assets/color-page/ds-neutral-colors.png'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
+import FooterMessage from '../components/FooterMessage'
 
 const Color = () => (
   <div className="ds-app-grid">
@@ -54,7 +55,7 @@ const Color = () => (
 
       </div>
 
-      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+      <FooterMessage />
 
     </div>
   </div>

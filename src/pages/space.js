@@ -4,6 +4,7 @@ import DSLeftNav from '../components/LeftNav'
 import gridExample2 from '../assets/space-page/gird-example2.jpg'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
+import FooterMessage from '../components/FooterMessage'
 
 const Space = () => (
   <div className="ds-app-grid">
@@ -23,7 +24,38 @@ const Space = () => (
 
         <p>See <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632" target="_blank">this article</a> if you want to learn more.</p>
 
-        <img className="ds-space-page-grid-example2-img" src={gridExample2} />
+        <img className="ds-space-page-grid-example-img" src={gridExample2} />
+
+        <div className="ds-space-space-specimens-container">
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen1"></div>
+            <code>ds-space(extra-tight)</code>
+          </div>
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen2"></div>
+            <code>ds-space(tight)</code>
+          </div>
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen3"></div>
+            <code>ds-space(base)</code>
+          </div>
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen4"></div>
+            <code>ds-space(bit-loose)</code>
+          </div>
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen5"></div>
+            <code>ds-space(loose)</code>
+          </div>
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen6"></div>
+            <code>ds-space(extra-loose)</code>
+          </div>
+          <div className="ds-space-space-specimen">
+            <div className="ds-space-space-specimen7"></div>
+            <code>s-space(super-loose)</code>
+          </div>
+        </div>
 
         <h4>Fluid Space</h4>
 
@@ -71,7 +103,7 @@ const Space = () => (
 
       </div>
 
-      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+      <FooterMessage />
     </div>
   </div>
 )
