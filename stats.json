@@ -4,10 +4,6 @@
       "path---typography-a0e39f21c11f6a62c5ab.js",
       "path---typography-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-index-js": [
-      "component---src-pages-index-js-2921a106c5bf40bdec5f.js",
-      "component---src-pages-index-js-2921a106c5bf40bdec5f.js.map"
-    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -20,6 +16,10 @@
       "component---src-pages-contact-js-aaa2f9b71e3eb1c431ba.js",
       "component---src-pages-contact-js-aaa2f9b71e3eb1c431ba.js.map"
     ],
+    "component---src-pages-iconography-js": [
+      "component---src-pages-iconography-js-688c90c470c9b5e7d961.js",
+      "component---src-pages-iconography-js-688c90c470c9b5e7d961.js.map"
+    ],
     "component---src-pages-color-js": [
       "component---src-pages-color-js-1f27f022cfa79f4a5fbc.js",
       "component---src-pages-color-js-1f27f022cfa79f4a5fbc.js.map"
@@ -27,10 +27,6 @@
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-ef2c53d6f1a4bc8504e3.js",
       "component---src-layouts-index-js-ef2c53d6f1a4bc8504e3.js.map"
-    ],
-    "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---depth": [
       "path---depth-a0e39f21c11f6a62c5ab.js",
@@ -40,10 +36,18 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
+    "path---introduction": [
+      "path---introduction-a0e39f21c11f6a62c5ab.js",
+      "path---introduction-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-introduction-js": [
+      "component---src-pages-introduction-js-2921a106c5bf40bdec5f.js",
+      "component---src-pages-introduction-js-2921a106c5bf40bdec5f.js.map"
+    ],
     "commons": [
-      "commons-a750671e9b4c167166c2.js",
+      "commons-7c372d4735e164e0ac51.js",
       "build-js-styles.css",
-      "commons-a750671e9b4c167166c2.js.map",
+      "commons-7c372d4735e164e0ac51.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
@@ -66,6 +70,10 @@
       "component---src-pages-depth-js-91651b7cde0855b0460d.js",
       "component---src-pages-depth-js-91651b7cde0855b0460d.js.map"
     ],
+    "path---iconography": [
+      "path---iconography-a0e39f21c11f6a62c5ab.js",
+      "path---iconography-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---motion": [
       "path---motion-a0e39f21c11f6a62c5ab.js",
       "path---motion-a0e39f21c11f6a62c5ab.js.map"
@@ -75,9 +83,9 @@
       "component---src-pages-motion-js-6466a0a1f5bd184cc203.js.map"
     ],
     "app": [
-      "app-ff9d1fcb40a2719b431a.js",
+      "app-1e98f7405b8e28855606.js",
       "build-js-styles.css",
-      "app-ff9d1fcb40a2719b431a.js.map",
+      "app-1e98f7405b8e28855606.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
