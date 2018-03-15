@@ -22,10 +22,10 @@
   }
 
   li {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     
     a {
-      font-size: ds-font-size(title, base);
+      font-size: ds-font-size(subheading, base);
       color: ds-color(neutral, 600);
     }
   }
@@ -33,6 +33,38 @@
   .ds-nav-link-isActive {
     color: ds-color(neutral, 700);
     font-weight: bold;
+  }
+
+  .ds-leftnav-resources-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: ds-color(neutral, 000);
+    position: fixed;
+    bottom: 100px;
+
+    .ds-leftnav-resource {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      // border: 1px solid ds-color(neutral, 200);
+      height: 70px;
+      width: 120px;
+
+      img {
+        width: 30px;
+        margin-bottom: 4px;
+      }
+
+      .github-img {
+        width: 25px;
+      }
+
+      span {
+        color: ds-color(neutral, 500)
+      }
+    }
   }
 
   .ds-profile-avatar-wrapper {

@@ -16,8 +16,25 @@
       margin-top: ds-space(tight);
     }
   }
+}
 
-  .no-center-align {
-    align-items: initial;
+
+.ds-iconography-showcase-container {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+  grid-row-gap: 40px;;
+
+
+
+  .ds-iconography-showcase-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    code {
+      margin-top: ds-space(tight);
+    }
   }
 }

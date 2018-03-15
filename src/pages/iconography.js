@@ -55,15 +55,15 @@ const Iconography = () => (
 
         <span className="ds-subheading-text-style">For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons</a>.</span>        
 
-        <div className="ds-iconography-specimen-container">
+        <div className="ds-iconography-showcase-container">
 
           {dsIconName.map(iconName => {
-              return (
-                <div className="ds-iconography-specimen no-center-align">
-                  <i className="material-icons ds-icon-large">{iconName}</i>
-                  <code>{iconName}</code>
-                </div>
-              )
+            return (
+              <div className="ds-iconography-showcase-item">
+                <i className="material-icons ds-icon-large">{iconName}</i>
+                <code>{iconName}</code>
+              </div>
+            );
             })
           }
         </div>
