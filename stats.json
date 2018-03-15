@@ -4,6 +4,10 @@
       "path---typography-a0e39f21c11f6a62c5ab.js",
       "path---typography-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-2921a106c5bf40bdec5f.js",
+      "component---src-pages-index-js-2921a106c5bf40bdec5f.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -28,6 +32,10 @@
       "component---src-layouts-index-js-f29520f38ae0c53c01ae.js",
       "component---src-layouts-index-js-f29520f38ae0c53c01ae.js.map"
     ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---depth": [
       "path---depth-a0e39f21c11f6a62c5ab.js",
       "path---depth-a0e39f21c11f6a62c5ab.js.map"
@@ -36,18 +44,10 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
-    "path---introduction": [
-      "path---introduction-a0e39f21c11f6a62c5ab.js",
-      "path---introduction-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-introduction-js": [
-      "component---src-pages-introduction-js-2921a106c5bf40bdec5f.js",
-      "component---src-pages-introduction-js-2921a106c5bf40bdec5f.js.map"
-    ],
     "commons": [
-      "commons-241ae6a71655e467c5db.js",
+      "commons-654bc63b039ee41c1c00.js",
       "build-js-styles.css",
-      "commons-241ae6a71655e467c5db.js.map",
+      "commons-654bc63b039ee41c1c00.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
@@ -83,9 +83,9 @@
       "component---src-pages-motion-js-6466a0a1f5bd184cc203.js.map"
     ],
     "app": [
-      "app-993159ecb89ba1f03a9b.js",
+      "app-7b8e946519febb2ede97.js",
       "build-js-styles.css",
-      "app-993159ecb89ba1f03a9b.js.map",
+      "app-7b8e946519febb2ede97.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
