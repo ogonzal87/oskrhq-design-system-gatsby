@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/oskrhq-design-system-gatsby`,
+  pathPrefix: `/oskrhq-design-system-react`,
   siteMetadata: {
     title: 'OSKRHQ Design System',
   },
