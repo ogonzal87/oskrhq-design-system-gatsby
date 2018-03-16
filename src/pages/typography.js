@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/ds-website-components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
+import FooterMessage from '../components/ds-website-components/FooterMessage'
 
 const Typography = () => (
   <div className="ds-app-grid">
@@ -95,7 +96,7 @@ const Typography = () => (
         </iframe>
       </div>
 
-      <span className="ds-subheading-text-style ds-footer-text">Made and maintained with tons of passion by <a href="https://www.oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+      <FooterMessage />
 
     </div>
   </div>
