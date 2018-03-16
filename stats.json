@@ -1,36 +1,40 @@
 {
   "assetsByChunkName": {
+    "path---components-buttons": [
+      "path---components-buttons-a0e39f21c11f6a62c5ab.js",
+      "path---components-buttons-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---typography": [
       "path---typography-a0e39f21c11f6a62c5ab.js",
       "path---typography-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-2921a106c5bf40bdec5f.js",
-      "component---src-pages-index-js-2921a106c5bf40bdec5f.js.map"
+      "component---src-pages-index-js-a9b2ba506759d8836b33.js",
+      "component---src-pages-index-js-a9b2ba506759d8836b33.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-typography-js": [
-      "component---src-pages-typography-js-441b0b78d51b8b03553f.js",
-      "component---src-pages-typography-js-441b0b78d51b8b03553f.js.map"
+      "component---src-pages-typography-js-453daf5787c12bf80964.js",
+      "component---src-pages-typography-js-453daf5787c12bf80964.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-aaa2f9b71e3eb1c431ba.js",
-      "component---src-pages-contact-js-aaa2f9b71e3eb1c431ba.js.map"
+      "component---src-pages-contact-js-8a83ab2dec6465f08315.js",
+      "component---src-pages-contact-js-8a83ab2dec6465f08315.js.map"
     ],
     "component---src-pages-iconography-js": [
-      "component---src-pages-iconography-js-5ebd81fb9910bfff6503.js",
-      "component---src-pages-iconography-js-5ebd81fb9910bfff6503.js.map"
+      "component---src-pages-iconography-js-9dcb7efd95fecf9ce3d5.js",
+      "component---src-pages-iconography-js-9dcb7efd95fecf9ce3d5.js.map"
     ],
     "component---src-pages-color-js": [
-      "component---src-pages-color-js-1f27f022cfa79f4a5fbc.js",
-      "component---src-pages-color-js-1f27f022cfa79f4a5fbc.js.map"
+      "component---src-pages-color-js-1e1383a8b8bc53ce72ac.js",
+      "component---src-pages-color-js-1e1383a8b8bc53ce72ac.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-f29520f38ae0c53c01ae.js",
-      "component---src-layouts-index-js-f29520f38ae0c53c01ae.js.map"
+      "component---src-layouts-index-js-5c5b1b0f47b6e56e7a9c.js",
+      "component---src-layouts-index-js-5c5b1b0f47b6e56e7a9c.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -45,14 +49,14 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-654bc63b039ee41c1c00.js",
+      "commons-c5d34dd0d3a2b7d68d6f.js",
       "build-js-styles.css",
-      "commons-654bc63b039ee41c1c00.js.map",
+      "commons-c5d34dd0d3a2b7d68d6f.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
-      "component---src-pages-space-js-6a07f3708d9050f088c1.js",
-      "component---src-pages-space-js-6a07f3708d9050f088c1.js.map"
+      "component---src-pages-space-js-2b61cd90e39d54312e84.js",
+      "component---src-pages-space-js-2b61cd90e39d54312e84.js.map"
     ],
     "path---color": [
       "path---color-a0e39f21c11f6a62c5ab.js",
@@ -62,13 +66,17 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-components-buttons-js": [
+      "component---src-pages-components-buttons-js-e7f79e898173745e218d.js",
+      "component---src-pages-components-buttons-js-e7f79e898173745e218d.js.map"
+    ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-depth-js": [
-      "component---src-pages-depth-js-91651b7cde0855b0460d.js",
-      "component---src-pages-depth-js-91651b7cde0855b0460d.js.map"
+      "component---src-pages-depth-js-3cf7d8b6ca54c7879800.js",
+      "component---src-pages-depth-js-3cf7d8b6ca54c7879800.js.map"
     ],
     "path---iconography": [
       "path---iconography-a0e39f21c11f6a62c5ab.js",
@@ -79,13 +87,13 @@
       "path---motion-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-motion-js": [
-      "component---src-pages-motion-js-6466a0a1f5bd184cc203.js",
-      "component---src-pages-motion-js-6466a0a1f5bd184cc203.js.map"
+      "component---src-pages-motion-js-8643723c88e97190c666.js",
+      "component---src-pages-motion-js-8643723c88e97190c666.js.map"
     ],
     "app": [
-      "app-7b8e946519febb2ede97.js",
+      "app-eaba41ad1240205b4041.js",
       "build-js-styles.css",
-      "app-7b8e946519febb2ede97.js.map",
+      "app-eaba41ad1240205b4041.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
