@@ -8,7 +8,7 @@ $ds-brand-text-color:     ds-color(primary, 400);
 $ds-secondary-text-color: ds-color(neutral, 500);
 $ds-base-link-text-color: $ds-brand-text-color;
 
-body {
+html {
   font-family: $ds-base-font-family;
   font-size: $ds-base-font-size;
   font-weight: $ds-base-font-weight;
@@ -226,7 +226,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(display4, base);
   line-height: ds-line-height(display4, base);
   font-weight: ds-font-weight(display4, light);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -234,7 +234,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(display3, base);
   line-height: ds-line-height(display3, base);
   font-weight: ds-font-weight(display3, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -242,7 +242,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(display2, base);
   line-height: ds-line-height(display2, base);
   font-weight: ds-font-weight(display2, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -250,7 +250,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(display1, base);
   line-height: ds-line-height(display1, base);
   font-weight: ds-font-weight(display1, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -258,7 +258,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(headline, base);
   line-height: ds-line-height(headline, base);
   font-weight: ds-font-weight(headline, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -266,7 +266,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(title, base);
   line-height: ds-line-height(title, base);
   font-weight: ds-font-weight(title, bold);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -274,7 +274,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(subheading, base);
   line-height: ds-line-height(subheading, base);
   font-weight: ds-font-weight(subheading, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -282,14 +282,14 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(body2, base);
   line-height: ds-line-height(body2, base);
   font-weight: ds-font-weight(body2, bold);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
 }
 
 @mixin ds-body1-text-style() {
   font-size:   ds-font-size(body1, base);
   line-height: ds-line-height(body1, base);
   font-weight: ds-font-weight(body1, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -297,7 +297,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(caption, base);
   line-height: ds-line-height(caption, base);
   font-weight: ds-font-weight(caption, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -305,7 +305,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(button, base);
   line-height: ds-line-height(button, base);
   font-weight: ds-font-weight(button, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -313,6 +313,7 @@ $ds-font-weight-data: (
   line-height: ds-line-height(link, base);
   font-weight: ds-font-weight(link, base);
   color:       $ds-brand-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
   cursor: pointer;
 }
@@ -321,7 +322,7 @@ $ds-font-weight-data: (
   font-size:   ds-font-size(list, base);
   line-height: ds-line-height(list, base);
   font-weight: ds-font-weight(list, base);
-  color:       $ds-base-text-color;
+  font-family: $ds-base-font-family;
   text-rendering: optimizeLegibility;
 }
 
@@ -437,4 +438,14 @@ a {
   margin-bottom: 1rem;
   text-decoration: none;
   @include ds-link-text-style();
+}
+
+button {
+  @include ds-button-text-style;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
 }
