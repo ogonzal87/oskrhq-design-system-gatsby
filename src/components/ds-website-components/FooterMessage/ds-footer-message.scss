@@ -1,0 +1,8 @@
+@import '../../../scss/_styles.scss';
+
+.ds-footer-text {
+  color: ds-color(neutral, 400);
+  position: absolute;
+  left: ds-space(super-loose);
+  bottom: ds-space(extra-loose);
+}

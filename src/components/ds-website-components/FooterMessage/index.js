@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import '../../../scss/_styles.scss';
 
 const FooterMessage = () => (
   <div>

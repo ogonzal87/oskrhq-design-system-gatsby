@@ -1,0 +1,50 @@
+@import '../../../scss/_styles.scss';
+
+.ds-left-nav {
+  grid-area: ds-left-nav;
+  background: ds-color(neutral, 000);
+  padding: 48px 48px 24px 48px;
+  height: 100vh;
+  position: sticky;
+  top:0;
+  left: 0;
+  bottom: 0;
+  transition: all 0.2s ease-out;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+  img {
+    margin-bottom: 80px;
+  }
+
+  ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 20px;
+    
+    a {
+      font-size: ds-font-size(title, base);
+      color: ds-color(neutral, 600);
+    }
+  }
+
+  .ds-nav-link-isActive {
+    color: ds-color(neutral, 700);
+    font-weight: bold;
+  }
+
+  .ds-leftnav-subnav-list {
+    padding: ds-space(base) 0 0 ds-space(loose);
+
+    li {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}
+

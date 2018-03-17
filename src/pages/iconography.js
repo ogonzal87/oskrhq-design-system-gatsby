@@ -67,10 +67,7 @@ const Iconography = () => (
             })
           }
         </div>
-
       </div>
-
-      
       <FooterMessage />
     </div>
   </div>

@@ -1,3 +1,5 @@
+@import '../../../scss/_styles.scss';
+
 $content-bg-color: #F5F5F5;
 
 .ds-main-content {
@@ -19,11 +21,4 @@ $content-bg-color: #F5F5F5;
     line-height: 43px;
     font-weight: 300;
   }
-}
-
-.ds-footer-text {
-  color: ds-color(neutral, 400);
-  position: absolute;
-  left: ds-space(super-loose);
-  bottom: ds-space(extra-loose);
 }
