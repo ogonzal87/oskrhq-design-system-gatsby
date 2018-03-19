@@ -39,12 +39,20 @@
 
   .ds-leftnav-subnav-list {
     padding: ds-space(base) 0 0 ds-space(loose);
+    display: none;
+    opacity: 0;
+    transition: all ds-easing(base) ds-duration(slow);
 
     li {
       a {
         font-size: 18px;
       }
     }
+  }
+
+  .ds-leftnav-subnav-list-is-showing {
+    display: block;
+    opacity: 1;
   }
 }
 

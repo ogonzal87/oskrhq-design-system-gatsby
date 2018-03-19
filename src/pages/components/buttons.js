@@ -28,7 +28,7 @@ const ButtonsPage = () => (
       <div className="ds-container">
         <h1>Buttons</h1>
 
-        <h3 className="subheading">Buttons make common actions immediately visible and easy to perform with one click or tap. </h3>
+        <h3 className="subheading">Buttons make common actions immediately visible and easy to perform with one click or tap.</h3>
 
         <SpecimenWrapper>
           <DSButton label="Primary" type="primary"/>

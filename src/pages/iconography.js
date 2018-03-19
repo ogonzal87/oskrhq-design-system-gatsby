@@ -11,11 +11,10 @@ const Iconography = () => (
   <div className="ds-app-grid">
     <DSLeftNav />
 
-    {console.table(dsIconName)}
-
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Iconography</h1>
+        
         <h3 className="subheading">There are three categories of colors. Brand, User Feedback and Neutral colors. Every UI element consumes these colors.</h3>
 
         <div className="ds-iconography-specimen-container">
@@ -57,7 +56,7 @@ const Iconography = () => (
 
         <div className="ds-iconography-showcase-container">
 
-          {dsIconName.map(iconName => {
+          {dsIconName.map((iconName, index) => {
             return (
               <div className="ds-iconography-showcase-item">
                 <i className="material-icons ds-icon-large">{iconName}</i>

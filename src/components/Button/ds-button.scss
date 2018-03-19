@@ -20,6 +20,11 @@
   &:hover {
     background: ds-color(primary, 300);
   }
+
+  &:active {
+    background: ds-color(primary, 500);
+    box-shadow: ds-depth(000);
+  }
 }
 
 .ds-btn-secondary {
@@ -28,6 +33,11 @@
 
   &:hover {
     background: ds-color(secondary, 300);
+  }
+
+  &:active {
+    background: ds-color(secondary, 500);
+    box-shadow: ds-depth(000);
   }
 }
 
@@ -38,6 +48,11 @@
   &:hover {
     background: ds-color(success, 300);
   }
+
+  &:active {
+    background: ds-color(success, 500);
+    box-shadow: ds-depth(000);
+  }
 }
 
 .ds-btn-danger {
@@ -46,6 +61,11 @@
   
   &:hover {
     background: ds-color(danger, 300);
+  }
+
+  &:active {
+    background: ds-color(danger, 500);
+    box-shadow: ds-depth(000);
   }
 }
 
@@ -57,6 +77,11 @@
     background: ds-color(info, 300);
     color: ds-color(info, 600);
   }
+
+  &:active {
+    background: ds-color(info, 500);
+    box-shadow: ds-depth(000);
+  }
 }
 
 .ds-btn-ghost {
@@ -67,6 +92,11 @@
   &:hover {
     background: ds-color(primary, 400);
     color: ds-color(neutral, 000);
+  }
+
+  &:active {
+    background: ds-color(primary, 500);
+    box-shadow: ds-depth(000);
   }
 }
 
