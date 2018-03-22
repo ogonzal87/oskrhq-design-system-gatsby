@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Logo from '../../../assets/logo/ds-logo.svg'
 import DSLeftNavFooter from '../LeftNavFooter'
 import { NavLink } from 'react-router-dom'
+import { withPrefix } from "gatsby-link"
 
 
 
@@ -30,7 +31,7 @@ class DSLeftNav extends React.Component {
           <li><NavLink exact to="/motion/" activeClassName="ds-nav-link-isActive">Motion</NavLink></li>
           <li><NavLink exact to="/iconography/" activeClassName="ds-nav-link-isActive">Iconography</NavLink></li>
           <li onClick={this.toggleSublist}><a className="ds-left-nav-component-anchor">Components</a>
-            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
+            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || location.pathname.match("components") ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
               <li><NavLink exact to="/components/buttons/" activeClassName="ds-nav-link-isActive">Buttons</NavLink></li>
             </ul>
           </li>
@@ -44,4 +45,4 @@ class DSLeftNav extends React.Component {
 };
   
 
-export default DSLeftNav
+export default DSLeftNav;
