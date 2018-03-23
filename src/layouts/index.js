@@ -10,10 +10,6 @@ const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
       title="OSKRHQ Design System"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
     />
     <div>
       {children()}
