@@ -15,7 +15,7 @@ const Color = () => (
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Colors</h1>
-        <h3 className="subheading">There are three categories of colors. Brand, User Feedback and Neutral colors. Every UI element consumes these colors.</h3>
+        <h3 className="subheading">Three categories of Color; Brand, User Feedback and Neutral colors.</h3>
 
         <div className="ds-color-wrapper">
           <div className="col-1">
@@ -34,7 +34,7 @@ const Color = () => (
           </div>
         </div>
 
-        <p className="ds-color-page-body">All the colors above have a Base color or Hue (400). From this color you can extract shades and tints of that Heu. I am using a 10% increment and decrement.</p>
+        <p className="ds-color-page-body">Every color you see in the System is defined here. All have a Base color or Hue (400) and from this color we extract shades and tints of that Heu. I use a 10% increment and decrement but this can be something else. </p>
 
         <p className="ds-color-page-body">Brand Colors are the personality of the brand. They should be used as Accent colors for things like Primary Buttons, CTA's and links. Feedback colors are colors you use to communicate status to the user and Neutral Colors are used for things like text, borders, shadows, backgrounds, etc.</p>
 

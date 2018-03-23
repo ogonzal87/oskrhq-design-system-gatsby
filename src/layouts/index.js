@@ -6,7 +6,7 @@ import '../scss/_styles.scss';
 // Component Classes 
 import '../components/_components.scss'
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
       title="OSKRHQ Design System"
