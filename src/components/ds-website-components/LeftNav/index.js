@@ -10,7 +10,7 @@ import { withPrefix } from "gatsby-link"
 
 
 class DSLeftNav extends React.Component {
-  constructor(props) {
+  constructor(props, location) {
     super(props);
     this.state = { sublistIsShowing: false };
 
