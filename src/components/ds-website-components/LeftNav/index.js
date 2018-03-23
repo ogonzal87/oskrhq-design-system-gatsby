@@ -23,6 +23,7 @@ class DSLeftNav extends React.Component {
     return (
       <div className="ds-left-nav">
         <img src={Logo} />
+        {console.log(window.location.href.indexOf("components") > -1)}
 
         <ul>
           <li><NavLink exact to="/" activeClassName="ds-nav-link-isActive">Introduction</NavLink></li>
@@ -33,7 +34,7 @@ class DSLeftNav extends React.Component {
           <li><NavLink exact to="/motion/" activeClassName="ds-nav-link-isActive">Motion</NavLink></li>
           <li><NavLink exact to="/iconography/" activeClassName="ds-nav-link-isActive">Iconography</NavLink></li>
           <li onClick={this.toggleSublist}><a className="ds-left-nav-component-anchor">Components</a>
-            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
+            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || (typeof window !== 'undefined' && window.location.href.indexOf("components") > -1) ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
               <li><NavLink exact to="/components/buttons/" activeClassName="ds-nav-link-isActive">Buttons</NavLink></li>
             </ul>
           </li>
