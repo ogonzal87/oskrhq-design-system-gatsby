@@ -23,7 +23,6 @@ class DSLeftNav extends React.Component {
     return (
       <div className="ds-left-nav">
         <img src={Logo} />
-        {console.log(window.location.href.indexOf("components") > -1)}
 
         <ul>
           <li><NavLink exact to="/" activeClassName="ds-nav-link-isActive">Introduction</NavLink></li>
