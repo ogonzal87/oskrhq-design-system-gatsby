@@ -13,7 +13,7 @@ const Motion = () => (
       <div className="ds-container">
         <h1>Motion</h1>
 
-        <h3 className="subheading">Motion not only gives life to interfaces, it also gives them a personality.</h3>
+        <h3 className="subheading">Motion not only gives life to interfaces, it also gives them a personality and purpose.</h3>
 
         <h4 className="ds-usage-title">Speed</h4>
         <div className="ds-motion-specimens-container">
@@ -93,7 +93,7 @@ const Motion = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>There are 5 levels of depth in By making use of the sass function <code>ds-depth($range)</code>, you can create levels of visual hierarchy. The higher the number the more elevated an item will appear. Use this when you are trying to emphasize sections of UI like containers or buttons. This not only ensures that we have consistent values for <code>box-shadow</code> declarations but also provides meaning to depth by aidding a 3rd dimension.</p>
+        <p>When declaring transitions, make use of <code>ds-duration($variable)</code> sass function for timing where <code>$variable</code> is a value in a predictive scale ranging from "slowest" to "fast", and <code>ds-easing($variable)</code> where <code>$variable</code> is a cubic bezier curve declaring the type of animation given a certain duration. You can choose from "base", "in", out, "out", "excite", "overshot", "anticipate". Hover the circles above to see the difference between them.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-ball {

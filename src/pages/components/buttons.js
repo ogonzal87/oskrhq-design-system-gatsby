@@ -5,8 +5,8 @@ import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/ds-website-components/FooterMessage';
 import DSButton from '../../components/Button/index'
-import styled from 'styled-components';
-import '../../scss/_styles.scss';
+import styled from 'styled-components'
+import '../../scss/_styles.scss'
 
 const SpecimenWrapper = styled.div`
   display: grid;
@@ -30,6 +30,7 @@ const ButtonsPage = () => (
 
         <h3 className="subheading">Buttons make common actions immediately visible and easy to perform with one click or tap.</h3>
 
+        <h4>Types</h4>
         <SpecimenWrapper>
           <DSButton label="Primary" type="primary"/>
           <DSButton label="Secondary" type="secondary"/>
@@ -37,9 +38,10 @@ const ButtonsPage = () => (
           <DSButton label="info" type="info"/>
           <DSButton label="danger" type="danger" />
           <DSButton label="ghost" type="ghost" />
-        </SpecimenWrapper>
+        </SpecimenWrapper>        
 
         <SpecimenSizeWrapper>
+          <h4>Sizes</h4>
           <DSButton label="Small" type="primary" size="small" />
           <DSButton label="Medium" type="primary" size="medium" />
           <DSButton label="Fluid" type="primary" />
@@ -47,13 +49,14 @@ const ButtonsPage = () => (
         
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>All UI elements make use of the sass function <code>ds-color($variable, $range)</code>. This ensures consistency since all colors are extracted from the same base. Avoid hard coding #HEX values when creating new UI elements or pages.</p>
+        <p>Buttons are tools the user haas to communicate something to the system and perform a desired action. In this system then are a Presentational React Component that you can You can use simply instantiate by creating a <code>DSButton</code> tag and passing attributes for type <code>(string)</code>, size <code>(string)</code>, and a label <code>(string)</code>.</p>
 
         <Highlight className='html'>
           {`<DSButton 
   label="save"
   type="primary"
   size="fluid"
+  onClick="doSomething"
 />`}
         </Highlight>
 

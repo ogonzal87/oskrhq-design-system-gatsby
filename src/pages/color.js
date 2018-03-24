@@ -15,7 +15,7 @@ const Color = () => (
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Colors</h1>
-        <h3 className="subheading">Three categories of Color; Brand, User Feedback and Neutral colors.</h3>
+        <h3 className="subheading">The system groups Color into Brand, User Feedback and Neutral colors, and provides a predictable color scale.</h3>
 
         <div className="ds-color-wrapper">
           <div className="col-1">
@@ -34,13 +34,13 @@ const Color = () => (
           </div>
         </div>
 
-        <p className="ds-color-page-body">Every color you see in the System is defined here. All have a Base color or Hue (400) and from this color we extract shades and tints of that Heu. I use a 10% increment and decrement but this can be something else. </p>
+        <p className="ds-color-page-body">Every color in the System is defined above. Each heu has a Base (400) and from this I extract shades and tints of that heu. This provides a predictable color scale of "allowed" colors in the system; the higher a number is, the darker the color. I use a 10% increment and decrement but this can be any value.</p>
 
-        <p className="ds-color-page-body">Brand Colors are the personality of the brand. They should be used as Accent colors for things like Primary Buttons, CTA's and links. Feedback colors are colors you use to communicate status to the user and Neutral Colors are used for things like text, borders, shadows, backgrounds, etc.</p>
+        <p className="ds-color-page-body"><strong>Brand Colors</strong> are the personality of the brand. They should be used as accent elements such as primary buttons, CTA's and links. <strong>Feedback Colors</strong> are uses to communicate Status to the user and <strong>Neutral Colors</strong> are used for things like text, borders, shadows, backgrounds, etc.</p>
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>All UI elements make use of the sass function <code>ds-color($variable, $range)</code>. This ensures consistency since all colors are extracted from the same base. Avoid hard coding #HEX values when creating new UI elements or pages.</p>
+        <p>All UI elements make use of a sass function; <code>ds-color($variable, $range)</code> where <code>$varible</code> is the type of color and the <code>$range</code> is the number in the scale which determines how light or dark that color will be. This ensures consistency as it prevents hard coding #HEX values when creating new UI elements or pages.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-box {

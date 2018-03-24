@@ -117,7 +117,6 @@ $ds-custom-grid: (
 
 .ds-col-container {
   @include grid-container;
-  @include grid-visual;
   @include grid-collapse;
 }
 
