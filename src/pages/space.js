@@ -14,15 +14,15 @@ const Space = () => (
       <div className="ds-container">
         <h1>Space</h1>
 
-        <h3 className="subheading">Space is present every where </h3> 
+        <h3 className="subheading">Every UI element uses Space. The system uses a geometric progression scale to create consistency and rhythm in space.</h3> 
 
         <h4>Fixed Space</h4>
         
-        <p>I use a combination of a Soft and Hard 8-Point-Grid System. This means the UI uses multiples of 8 to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and you automatically get a more consistent UI with this.</p>
+        <p>I use a combination of a Soft a Hard 8-Point-Grid System. This means that space uses multiples of 8px to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and avoids many headaches when designers are discussing space with developers.</p>
 
-        <p>Regardless of form-factor, most popular screen sizes are divisible by 8 on at least one axis - usually both. Additionally, some platforms’ style guides (like Material Design) call specifically for a grid of 4 or 8 points, making this system a natural fit.</p>
+        <p><strong>Why 8px?</strong> Regardless of form-factor, most popular screen sizes are divisible by 8 on at least one axis - usually both. See <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632" target="_blank">this article</a> to learn more.</p>
 
-        <p>See <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632" target="_blank">this article</a> if you want to learn more.</p>
+        <p>The system has a predictable scale to measure fixed space - 4px (extra-tight), 8px (tight), 16px (base), 24px (bit-loose), 32px (loose), 48px (extra-loose), 64px (super-loose).</p>
 
         <img className="ds-space-page-grid-example-img" src={gridExample2} />
 
@@ -59,9 +59,9 @@ const Space = () => (
 
         <h4>Fluid Space</h4>
 
-        <p>For containers or elements that need to be fluid, the system provides a column system with 12 individual columns and css classes for their use. Jsut make sure you wrap the columns with this css class: <code>.ds-col-container</code>.</p>
+        <p>For containers or elements that need to be fluid, the system uses a 12-column system with css utility classes for its use. <strong>Just make sure you wrap the column elements with a div and assign it this css class: <code>.ds-col-container</code></strong>.</p>
 
-        <div className="ds-col-container">
+        <div className="ds-col-container ds-space-col-specimen-container">
           <div className="ds-box ds-col-12"><code>.ds-col-12</code></div>
           <div className="ds-box ds-col-6"><code>.ds-col-6</code></div>
           <div className="ds-box ds-col-6"><code>.ds-col-6</code></div>
@@ -78,13 +78,15 @@ const Space = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
+        <p>For fixed spacing, make use of the sass function <code>ds-space($variable)</code> where <code>$variable</code> is either extra-tight (4px), tight (8px), base (16px), bit-loose (24px), loose (32px), extra-loose (48px), super-loose (64px). In most cases, you will be using Fluid Space with the column system to layout content and elements on the screen, and Fixed Spacing when composing these elements.</p>
+
         <Highlight className='html'>
-{`<div className="ds-col-container">
-  <div className="ds-box ds-col-6">
-    <div className="ball"></div>
+{`<div class="ds-col-container">
+  <div class="ds-box ds-col-6">
+    <div class="ball"></div>
   </div>
-  <div className="ds-box ds-col-6">
-    <div className="ball"></div>
+  <div class="ds-box ds-col-6">
+    <div class="ball"></div>
   </div>        
 </div>`}
         </Highlight>

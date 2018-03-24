@@ -13,7 +13,7 @@ const Depth = () => (
       <div className="ds-container">
         <h1>Depth</h1>
 
-        <h3 className="subheading">Nature has 3 dimenssions... So does this system. You can use 5 levels of depth to communicate hierarchy in the UI.</h3>
+        <h3 className="subheading">Nature has 3 dimensions. So does this system. You can use 5 levels of depth to communicate hierarchy.</h3>
 
         <div className="ds-depth-specimens-container">
           <div className="ds-depth-specimen ds-depth-specimen1"></div>
@@ -33,7 +33,7 @@ const Depth = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>There are 5 levels of depth in By making use of the sass function <code>ds-depth($range)</code>, you can create levels of visual hierarchy. The higher the number the more elevated an item will appear. Use this when you are trying to emphasize sections of UI like containers or buttons. This not only ensures that we have consistent values for <code>box-shadow</code> declarations but also provides meaning to depth by aidding a 3rd dimension.</p>
+        <p>There are 5 levels of depth in the system. By making use of the sass function <code>ds-depth($range)</code>, where <code>$range</code> is a value from 100 through 500, you can create levels of visual hierarchy. The higher the number the more elevated an item will appear. Use this when you are trying to emphasize sections of UI like containers or buttons.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-container-coming-at-you {
