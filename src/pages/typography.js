@@ -12,7 +12,7 @@ const Typography = () => (
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Typography</h1>
-        <h3 className="subheading">Inspired by Material’s Design, these typographic styles are flexible enough to be used in both web and mobile.</h3>
+        <h3 className="subheading">Based on Material’s Design typographic styles, I use these for both Web and Mobile.</h3>
 
         <p className="ds-button-text-style ds-typography-typeface">Lato Typeface</p>
 
@@ -81,7 +81,7 @@ const Typography = () => (
 
         <h4>Usage</h4>
 
-        <p>Every typographic style defined above already has a utility class you can use such as <code>.ds-display2-text-style</code>. Although not advised, you can create your own from a standard base of utility sass functions; <code>ds-font-size()</code>, <code>ds-font-weight()</code>, <code>ds-line-height()</code>, and <code>ds-color()</code>.</p>
+        <p>Every typographic style defined above already has a utility class you can use. Although not advised, you create your own from a standard base of utility sass functions for <code>font-size</code>, <code>font-weight</code>, <code>line-height</code>, and <code>color</code>.</p>
 
         <Highlight className='scss'>
           {`.my-new-big-text {

@@ -15,7 +15,7 @@ const Iconography = () => (
       <div className="ds-container">
         <h1>Iconography</h1>
         
-        <h3 className="subheading">Iconography is a visual language within the system that uses images and symbols to represent objects or meaning.</h3>
+        <h3 className="subheading">There are three categories of colors. Brand, User Feedback and Neutral colors. Every UI element consumes these colors.</h3>
 
         <div className="ds-iconography-specimen-container">
           <div className="ds-iconography-specimen">
@@ -46,13 +46,13 @@ const Iconography = () => (
 
         <h4>Usage</h4>
 
-        <p>The system uses Material Design icons. You can just include the icon in your mark up with an <code>i</code> tag and add a utility class to keep sizing consistent.</p>
-
-        <p><strong>For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons website</a>.</strong></p>  
+        <p>Since the system is using Material Design icons, you can just include the icon in your mark up with an <code>i</code> tag and add a utility class to keep sizing consistent.</p>
 
         <Highlight className='html'>
-          {`<i class="material-icons ds-icon-xlarge">face</i>`}
-        </Highlight>       
+          {`<i className="material-icons ds-icon-xlarge">face</i>`}
+        </Highlight>
+
+        <span className="ds-subheading-text-style">For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons</a>.</span>        
 
         <div className="ds-iconography-showcase-container">
 

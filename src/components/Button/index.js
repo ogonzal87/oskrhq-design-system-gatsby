@@ -41,7 +41,7 @@ const clickHandler = () => {
 }
 
 const DSButton = (props) => (
-  <button className={`ds-btn ${checkType(props)} ${checkSize(props)}`} >{props.label}</button>
+  <button className={`ds-btn ${checkType(props)} ${checkSize(props)}`} onClick={clickHandler}>{props.label}</button>
 );
 
 export default DSButton;
