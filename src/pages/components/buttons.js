@@ -49,7 +49,7 @@ const ButtonsPage = () => (
         
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>Buttons are tools the user haas to communicate something to the system and perform a desired action. In this system then are a Presentational React Component that you can You can use simply instantiate by creating a <code>DSButton</code> tag and passing attributes for type <code>(string)</code>, size <code>(string)</code>, and a label <code>(string)</code>.</p>
+        <p>Buttons are tools the user has to communicate something to the system and perform a desired action. In the system they are a Presentational React Component that you can use by simply instantiate by creating a <code>DSButton</code> tag and passing attributes for type <code>(string)</code>, size <code>(string)</code>, and a label <code>(string)</code>.</p>
 
         <Highlight className='html'>
           {`<DSButton 
