@@ -15,7 +15,7 @@ const DSLeftNavFooter = () => (
     </div> */}
 
     <div className="ds-leftnav-resources-container">
-      <a href="https://github.com/ogonzal87/oskrhq-uikit-mobile-app" target="_blank" className="ds-leftnav-resource">
+      <a href="https://github.com/ogonzal87/oskrhq-uikit" target="_blank" className="ds-leftnav-resource">
         <img src={SketchImg} />
         {/* <span className="ds-caption-text-style">UI KIT</span> */}
       </a>

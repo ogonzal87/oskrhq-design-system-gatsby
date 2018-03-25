@@ -43,10 +43,10 @@ const Iconography = () => (
             <code>.ds-icon-xxlarge</code>
           </div>
         </div>  
-
+       
         <h4>Usage</h4>
 
-        <p>The system uses Material Design icons. You can just include the icon in your mark up with an <code>i</code> tag and add a utility class to keep sizing consistent.</p>
+        <p>The system uses Material Design icons. You can just include the icon in your mark up with an <code>i</code> tag and one of the utility classes above to keep sizing consistent.</p>
 
         <p><strong>For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons website</a>.</strong></p>  
 

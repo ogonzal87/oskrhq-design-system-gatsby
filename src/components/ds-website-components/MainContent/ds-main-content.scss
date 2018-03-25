@@ -11,14 +11,14 @@ $content-bg-color: #F9FAFC;
 
 .ds-container {
   max-width: 960px;
-  margin: 120px 0 120px 46px;
-  position: relative;
+  margin: 120px 0 120px 60px;
+  position: relative;  
+}
 
-  .subheading {
-    width: 680px;
-    color: ds-color(neutral, 500);
-    margin-bottom: 100px;
-    line-height: 43px;
-    font-weight: 300;
-  }
+.subheading {
+  width: 680px;
+  color: ds-color(neutral, 500);
+  margin-bottom: 100px;
+  line-height: 43px;
+  font-weight: 300;
 }
