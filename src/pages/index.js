@@ -35,7 +35,7 @@ const IndexPage = () => (
           </div>
 
           <div className="ds-col-7">
-            <p className="ds-headline-text-style"><span>Design System (noun)</span>: A <span className="ds-accent-text">product</span> made of living guidelines that communicates a <span className="ds-accent-text">unified</span> set of UX and design decisions which promotes <span className="ds-accent-text">harmony</span> across various media outputs.A mostly reasonable although opinionated approach to building Responsive User Interfaces sharing the same anatomy.</p>
+            <p className="ds-headline-text-style"><span>Design System (noun)</span>: A <span className="ds-accent-text">product</span> made of living guidelines that communicates a <span className="ds-accent-text">unified</span> set of UX and design decisions which promotes <span className="ds-accent-text">harmony</span> across various media outputs.</p>
           </div>
         </div>
 

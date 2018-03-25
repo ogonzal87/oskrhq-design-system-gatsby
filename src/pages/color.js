@@ -34,9 +34,16 @@ const Color = () => (
           </div>
         </div>
 
-        <p className="ds-color-page-body">Every color in the System is defined above. Each heu has a Base (400) and from this I extract shades and tints of that heu. This provides a predictable color scale of "allowed" colors in the system; the higher a number is, the darker the color. I use a 10% increment and decrement but this can be any value. </p>
+        <div className="ds-col-container">
+          <div className="ds-col-6">
+            <p className="ds-color-page-body">Every color in the System is defined above. Each heu has a Base (400) and from this I extract shades and tints of that heu. This provides a predictable color scale of "allowed" colors in the system; the higher a number is, the darker the color. I use a 10% increment and decrement but this can be any value. </p>
+          </div>
 
-        <p className="ds-color-page-body"><strong>Brand Colors</strong> are the personality of the brand. They should be used as accent elements such as primary buttons, CTA's and links. <strong>Feedback Colors</strong> are uses to communicate Status to the user and <strong>Neutral Colors</strong> are used for things like text, borders, shadows, backgrounds, etc.</p>
+          <div className="ds-col-6">
+            <p className="ds-color-page-body"><strong>Brand Colors</strong> are the personality of the brand. They should be used as accent elements such as primary buttons, CTA's and links. <strong>Feedback Colors</strong> are uses to communicate Status to the user and <strong>Neutral Colors</strong> are used for things like text, borders, shadows, backgrounds, etc.</p>
+          </div>
+
+        </div>
 
         <h4 className="ds-usage-title">Usage</h4>
 

@@ -17,13 +17,21 @@ const Space = () => (
         <h3 className="subheading">Every UI element uses Space. The system uses a geometric progression scale to create consistency and rhythm in space.</h3> 
 
         <h4>Fixed Space</h4>
+
+        <div className="ds-col-container">
+          
+          <div className="ds-col-6">
+            <p>I use a combination of a Soft a Hard 8-Point-Grid System. This means that space uses multiples of 8px to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and avoids many headaches when designers are discussing space with developers.</p>
+          </div>
+
+          <div className="ds-col-6">
+            <p><strong>Why 8px?</strong> Regardless of form-factor, most popular screen sizes are divisible by 8 on at least one axis - usually both. See <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632" target="_blank">this article</a> to learn more.</p>
+
+            <p>The system has a predictable scale to measure fixed space - 4px (extra-tight), 8px (tight), 16px (base), 24px (bit-loose), 32px (loose), 48px (extra-loose), 64px (super-loose).</p>
+          </div>
+
+        </div>
         
-        <p>I use a combination of a Soft a Hard 8-Point-Grid System. This means that space uses multiples of 8px to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and avoids many headaches when designers are discussing space with developers.</p>
-
-        <p><strong>Why 8px?</strong> Regardless of form-factor, most popular screen sizes are divisible by 8 on at least one axis - usually both. See <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632" target="_blank">this article</a> to learn more.</p>
-
-        <p>The system has a predictable scale to measure fixed space - 4px (extra-tight), 8px (tight), 16px (base), 24px (bit-loose), 32px (loose), 48px (extra-loose), 64px (super-loose).</p>
-
         <img className="ds-space-page-grid-example-img" src={gridExample2} />
 
         <div className="ds-space-space-specimens-container">
