@@ -1,0 +1,38 @@
+@import '../../scss/_styles.scss';
+
+.ds-switch-container {
+  height: 31px;
+  width: 49px;
+  background: ds-color(neutral, 000);
+  border-radius: 15px;
+  border: 1px solid ds-color(neutral, 400);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+  .ds-switch-nob {
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background: ds-color(neutral, 000);
+    border: 1px solid ds-color(neutral, 300);
+    box-sizing: border-box;
+    margin: 0 1px;
+    box-shadow: ds-depth(100);
+  }
+
+  &.is-active {
+    background: ds-color(primary, 400);
+    border: 0;
+
+    .ds-switch-nob {
+      border: 0;
+    }
+  }
+
+  input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+}

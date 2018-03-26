@@ -36,6 +36,7 @@ class DSLeftNav extends React.Component {
             <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || (typeof window !== 'undefined' && window.location.href.indexOf("components") > -1) ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
               <li><NavLink exact to="/components/buttons/" activeClassName="ds-nav-link-isActive">Buttons</NavLink></li>
               <li><NavLink exact to="/components/InputText/" activeClassName="ds-nav-link-isActive">Input Text</NavLink></li>
+              <li><NavLink exact to="/components/Switch/" activeClassName="ds-nav-link-isActive">Switch</NavLink></li>
             </ul>
           </li>
           <li><NavLink exact to="/contact/" activeClassName="ds-nav-link-isActive">Contact</NavLink></li>
