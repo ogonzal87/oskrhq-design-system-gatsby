@@ -2,15 +2,24 @@ import React from 'react'
 import Link from 'gatsby-link'
 import '../../scss/_styles.scss'
 
-const clickHandler = () => {
-  console.log("Click Handler Fired!")
-}
+class DSSwitch extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isChecked: this.props.checked
+    }
+  }
 
-const DSSwitch = (props) => (
-  <div className="ds-switch-container is-active">
-    <div className="ds-switch-nob"></div>
-    <input type="checkbox" className={`ds-circle-btn`} onClick={clickHandler} />
-  </div>  
-);
+  render() {
+    return (
+      <div className="ds-switch-container">
+        <label>
+          <input type="checkbox" className="ds-switch" defaultChecked={this.state.isChecked}/>
+          <div className="ds-switch-nob"></div>
+        </label>
+      </div>
+    )
+  }
+}
 
 export default DSSwitch;

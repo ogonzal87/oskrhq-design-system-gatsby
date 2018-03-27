@@ -30,7 +30,7 @@ const InputTextPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>Input Fields are tools the user has to communicate something to the system. In the system they are a Presentational React Component that you can use by simply instantiate by creating a <code>DSInputText</code> tag and passing attributes for label <code>(string)</code>, size <code>(string)</code>, value <code>(string || number)</code> and a placeholder <code>(string)</code>.</p>
+        <p>Input Fields are tools the user has to communicate something to the system. In the system they are a Presentational React Component that you can use by simply instantiate a <code>DSInputText</code> tag and passing attributes for label <code>(string)</code>, size <code>(string)</code>, value <code>(string || number)</code> and a placeholder <code>(string)</code>.</p>
 
         <Highlight className='html'>
           {`<DSInputText 
