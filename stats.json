@@ -4,6 +4,10 @@
       "path---components-buttons-a0e39f21c11f6a62c5ab.js",
       "path---components-buttons-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---components-checkbox": [
+      "path---components-checkbox-a0e39f21c11f6a62c5ab.js",
+      "path---components-checkbox-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---typography": [
       "path---typography-a0e39f21c11f6a62c5ab.js",
       "path---typography-a0e39f21c11f6a62c5ab.js.map"
@@ -13,8 +17,8 @@
       "path---components-input-text-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-363212b862b8f6fd1770.js",
-      "component---src-pages-index-js-363212b862b8f6fd1770.js.map"
+      "component---src-pages-index-js-988dc292385e53dc4258.js",
+      "component---src-pages-index-js-988dc292385e53dc4258.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -52,18 +56,22 @@
       "path---depth-a0e39f21c11f6a62c5ab.js",
       "path---depth-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-components-checkbox-js": [
+      "component---src-pages-components-checkbox-js-6627d0e6ac4a49bd1f5e.js",
+      "component---src-pages-components-checkbox-js-6627d0e6ac4a49bd1f5e.js.map"
+    ],
     "component---src-pages-components-switch-js": [
-      "component---src-pages-components-switch-js-a91d1332e3afdd398278.js",
-      "component---src-pages-components-switch-js-a91d1332e3afdd398278.js.map"
+      "component---src-pages-components-switch-js-8a29c354dfde0f431f6b.js",
+      "component---src-pages-components-switch-js-8a29c354dfde0f431f6b.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-722cab90f8a232985724.js",
+      "commons-365051cbf3c30ce3986e.js",
       "build-js-styles.css",
-      "commons-722cab90f8a232985724.js.map",
+      "commons-365051cbf3c30ce3986e.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
@@ -103,8 +111,8 @@
       "component---src-pages-motion-js-23ef6d87573041811ae7.js.map"
     ],
     "app": [
-      "app-fb200db220a2cda458c8.js",
-      "app-fb200db220a2cda458c8.js.map"
+      "app-19d5095b0791f6564b4b.js",
+      "app-19d5095b0791f6564b4b.js.map"
     ],
     "path---components-switch": [
       "path---components-switch-a0e39f21c11f6a62c5ab.js",
