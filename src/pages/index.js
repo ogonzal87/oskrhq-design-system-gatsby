@@ -15,7 +15,7 @@ const IndexPage = () => (
       <div className="ds-intro-first-section-container">
         <img src={logoBrush} className="ds-intro-logo-brush" />
 
-        <h3 className="subheading">A mostly reasonable although opinionated approach to building Responsive User Interfaces sharing the same anatomy.</h3>
+        <h3 className="subheading">A mostly reasonable although opinionated approach to building responsive Digital Interfaces sharing the same anatomy.</h3>
 
         <img src={Splash} className="ds-intro-splash" />
         
