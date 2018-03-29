@@ -1,0 +1,54 @@
+@import '../../scss/_styles.scss';
+
+.ds-radio-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+
+  input[type=radio] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  /* Create a custom radio button */
+  .ds-radio {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: ds-space(bit-loose);;
+      width: ds-space(bit-loose);
+      background: ds-color(neutral, 000);
+      border: ds-color(primary, 400) 1px solid;
+      box-sizing: border-box;
+      border-radius: 50%;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  input[type=radio]:checked ~ .ds-radio {
+      background: ds-color(primary, 400);
+  }
+
+  .ds-radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  input[type=radio]:checked ~ .ds-radio:after {
+    display: block;
+  }
+
+  .ds-radio:after {
+    top: 7px;
+    left: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: ds-color(neutral, 000);
+  }
+}
