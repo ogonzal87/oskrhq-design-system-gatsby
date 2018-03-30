@@ -16,11 +16,11 @@ const InputTextPage = () => (
       <div className="ds-container">
         <h1>Input Text</h1>
 
-        <h3 className="subheading">Text inputs enable the user to interact with and input data. Use when the application requires long-form content from the user.</h3>
+        <h3 className="subheading">Text inputs allow users to input text and usually appear in forms. Use when the application requires content from the user.</h3>
 
         <div className="ds-col-container">
           <div className="ds-col-6">
-            <DSInputText label="Input Label" placeholder="placeholder..."/>
+            <DSInputText label="Full Name" placeholder="placeholder..."/>
           </div>
           <div className="ds-col-6">
             <DSInputText label="Full Name" value="John Doe"/>
@@ -30,7 +30,7 @@ const InputTextPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>Input Fields are tools the user has to communicate something to the system. In the system they are a Presentational React Component that you can use by simply instantiate a <code>DSInputText</code> tag and passing attributes for label <code>(string)</code>, size <code>(string)</code>, value <code>(string || number)</code> and a placeholder <code>(string)</code>.</p>
+        <p>Input Fields are tools the user has to communicate something to the app. In the system they are a Presentational React Components that you can use by simply instantiate a <code>DSInputText</code> tag and passing attributes for label <code>(string)</code>, size <code>(string)</code>, value <code>(string || number)</code> and a placeholder <code>(string)</code>.</p>
 
         <Highlight className='html'>
           {`<DSInputText 

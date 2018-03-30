@@ -39,7 +39,7 @@ class RadioPage extends React.Component {
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p>Radios are tools the user has to communicate something to the system. In this system they are a Presentational React Component that you can use by simply instantiate a <code>DSRadio</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, checked <code>(boolean)</code>, and label <code>(string)</code>.</p>
+            <p>Radios are tools the user has to communicate something to the app. In this system they are a Presentational React Components that you can use by simply instantiate a <code>DSRadio</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, checked <code>(boolean)</code>, and label <code>(string)</code>.</p>
 
             <Highlight className='jsx'>
               {`class DemoPage extends React.Component {

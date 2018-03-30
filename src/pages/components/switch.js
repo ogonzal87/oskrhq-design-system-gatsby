@@ -54,7 +54,7 @@ class SwitchPage extends React.Component {
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p>Switches are tools the user has to communicate something to the system. In the system they are a Presentational React Component that you can use by simply instantiate a <code>DSSwitch</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, and checked <code>(boolean)</code>.</p>
+            <p>Switches are tools the user has to communicate something to the app. In this system they are a Presentational React Components that you can use by simply instantiate a <code>DSSwitch</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, and checked <code>(boolean)</code>.</p>
 
             <Highlight className='jsx'>
               {`class DemoPage extends React.Component {

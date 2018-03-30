@@ -1,0 +1,24 @@
+import React from 'react'
+import Link from 'gatsby-link'
+import '../../scss/_styles.scss'
+
+class DSInputText extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return ( 
+      <div className="ds-text-area-container">
+        <label className="ds-body1-text-style ds-text-area-label">{this.props.label}</label>
+        <textarea
+          className="ds-text-area-field ds-subheading-text-style"
+          placeholder={this.props.placeholder}
+          rows={this.props.rows}
+          value={this.props.value}></textarea>
+      </div>
+    )
+  }
+}
+
+export default DSInputText

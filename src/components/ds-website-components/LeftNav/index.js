@@ -5,10 +5,6 @@ import DSLeftNavFooter from '../LeftNavFooter'
 import { NavLink } from 'react-router-dom'
 import { withPrefix } from "gatsby-link"
 
-
-
-
-
 class DSLeftNav extends React.Component {
   constructor(props) {
     super(props);
@@ -40,6 +36,7 @@ class DSLeftNav extends React.Component {
               <li><NavLink exact to="/components/InputText/" activeClassName="ds-nav-link-isActive">Input Text</NavLink></li>
               <li><NavLink exact to="/components/Radio/" activeClassName="ds-nav-link-isActive">Radio</NavLink></li>
               <li><NavLink exact to="/components/Switch/" activeClassName="ds-nav-link-isActive">Switch</NavLink></li>
+              <li><NavLink exact to="/components/TextArea/" activeClassName="ds-nav-link-isActive">Text Area</NavLink></li>
             </ul>
           </li>
           <li><NavLink exact to="/contact/" activeClassName="ds-nav-link-isActive">Contact</NavLink></li>
@@ -51,5 +48,4 @@ class DSLeftNav extends React.Component {
   };
 };
   
-
 export default DSLeftNav;

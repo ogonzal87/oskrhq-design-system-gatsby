@@ -57,7 +57,7 @@ class CheckboxPage extends React.Component {
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p>Checkboxes are tools the user has to communicate something to the system. In this system they are a Presentational React Component that you can use by simply instantiate a <code>DSCheckbox</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, checked <code>(boolean)</code>, and label <code>(string)</code>.</p>
+            <p>Checkboxes are tools the user has to communicate something to the app. In this app they are a Presentational React Components that you can use by simply instantiate a <code>DSCheckbox</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, checked <code>(boolean)</code>, and label <code>(string)</code>.</p>
 
             <Highlight className='jsx'>
               {`class DemoPage extends React.Component {
