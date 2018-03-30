@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---components-avatar": [
+      "path---components-avatar-a0e39f21c11f6a62c5ab.js",
+      "path---components-avatar-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---components-buttons": [
       "path---components-buttons-a0e39f21c11f6a62c5ab.js",
       "path---components-buttons-a0e39f21c11f6a62c5ab.js.map"
@@ -52,6 +56,10 @@
       "component---src-layouts-index-js-4cde3317b6918a197843.js",
       "component---src-layouts-index-js-4cde3317b6918a197843.js.map"
     ],
+    "component---src-pages-components-avatar-js": [
+      "component---src-pages-components-avatar-js-8dee1a77975c64de8576.js",
+      "component---src-pages-components-avatar-js-8dee1a77975c64de8576.js.map"
+    ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
@@ -73,9 +81,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-02584477ae2185bf3b12.js",
+      "commons-71020c6e138613b05c37.js",
       "build-js-styles.css",
-      "commons-02584477ae2185bf3b12.js.map",
+      "commons-71020c6e138613b05c37.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-space-js": [
@@ -115,8 +123,8 @@
       "component---src-pages-motion-js-23ef6d87573041811ae7.js.map"
     ],
     "app": [
-      "app-1657337e3e7c95385591.js",
-      "app-1657337e3e7c95385591.js.map"
+      "app-50d633c67bfdc5a84009.js",
+      "app-50d633c67bfdc5a84009.js.map"
     ],
     "path---components-switch": [
       "path---components-switch-a0e39f21c11f6a62c5ab.js",
