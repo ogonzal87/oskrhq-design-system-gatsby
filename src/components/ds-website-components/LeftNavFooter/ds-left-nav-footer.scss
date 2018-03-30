@@ -1,15 +1,13 @@
 @import '../../../scss/_styles.scss';
 
 .ds-leftnav-footer-wrapper {
-  width: 100%;
-  height: 120px;
   box-sizing: border-box;
-  position: fixed;
   bottom: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   background: ds-color(neutral, 000);
+  margin-top: ds-space(extra-loose);
 
   .ds-leftnav-resources-container {
     display: flex;
@@ -21,8 +19,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      // border: 1px solid ds-color(neutral, 200);
       width: 120px;
+      height: 80px;
 
       img {
         width: 30px;

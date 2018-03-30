@@ -36,7 +36,6 @@ const TextAreaPage = () => (
   label="Comment (Optional)"
   placeholder="Type..."
   cols="4"
-  onChange="doSomething"
 />`}
         </Highlight>
 
