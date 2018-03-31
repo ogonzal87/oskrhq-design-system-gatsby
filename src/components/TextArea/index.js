@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import '../../scss/_styles.scss'
 
-class DSInputText extends React.Component {
+class DSInputArea extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -21,4 +21,4 @@ class DSInputText extends React.Component {
   }
 }
 
-export default DSInputText
+export default DSInputArea
