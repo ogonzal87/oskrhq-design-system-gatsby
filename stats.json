@@ -20,6 +20,10 @@
       "path---components-input-text-a0e39f21c11f6a62c5ab.js",
       "path---components-input-text-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---components-input-text-copy": [
+      "path---components-input-text-copy-a0e39f21c11f6a62c5ab.js",
+      "path---components-input-text-copy-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-95bc3e1688976a5cc468.js",
       "component---src-pages-index-js-95bc3e1688976a5cc468.js.map"
@@ -48,9 +52,9 @@
       "component---src-pages-iconography-js-17f166f2844510448d38.js",
       "component---src-pages-iconography-js-17f166f2844510448d38.js.map"
     ],
-    "path---components-text-area": [
-      "path---components-text-area-a0e39f21c11f6a62c5ab.js",
-      "path---components-text-area-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-components-input-select-js": [
+      "component---src-pages-components-input-select-js-beece55111a64599cc33.js",
+      "component---src-pages-components-input-select-js-beece55111a64599cc33.js.map"
     ],
     "component---src-pages-color-js": [
       "component---src-pages-color-js-fccb209d3c072009fc58.js",
@@ -110,10 +114,6 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-components-text-area-js": [
-      "component---src-pages-components-text-area-js-383e8f40dba862c068eb.js",
-      "component---src-pages-components-text-area-js-383e8f40dba862c068eb.js.map"
-    ],
     "component---src-pages-depth-js": [
       "component---src-pages-depth-js-577d5f84c19b3a2478a1.js",
       "component---src-pages-depth-js-577d5f84c19b3a2478a1.js.map"
@@ -121,6 +121,10 @@
     "path---iconography": [
       "path---iconography-a0e39f21c11f6a62c5ab.js",
       "path---iconography-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---components-input-select": [
+      "path---components-input-select-a0e39f21c11f6a62c5ab.js",
+      "path---components-input-select-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---motion": [
       "path---motion-a0e39f21c11f6a62c5ab.js",
@@ -131,8 +135,8 @@
       "component---src-pages-motion-js-23ef6d87573041811ae7.js.map"
     ],
     "app": [
-      "app-05eb517573243e15cd29.js",
-      "app-05eb517573243e15cd29.js.map"
+      "app-d1a34c449d07e244a18a.js",
+      "app-d1a34c449d07e244a18a.js.map"
     ],
     "path---components-switch": [
       "path---components-switch-a0e39f21c11f6a62c5ab.js",
@@ -141,6 +145,10 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-components-input-text-copy-js": [
+      "component---src-pages-components-input-text-copy-js-383e8f40dba862c068eb.js",
+      "component---src-pages-components-input-text-copy-js-383e8f40dba862c068eb.js.map"
     ],
     "path---space": [
       "path---space-a0e39f21c11f6a62c5ab.js",
