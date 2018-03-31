@@ -9,7 +9,7 @@ class DSInputText extends React.Component {
 
   render() {
     return (
-      <div className="ds-input-text-continer">
+      <div className="ds-input-text-container">
         <label className="ds-body1-text-style ds-input-label">{this.props.label}</label>
         <input type={this.props.type} placeholder={this.props.placeholder} className="ds-input-field ds-subheading-text-style"  value={this.props.value}/>
       </div>

@@ -7,6 +7,7 @@ $content-bg-color: #F9FAFC;
   background: $content-bg-color;
   width: 100%;
   position: relative;
+  min-height: 100vh;
 }
 
 .ds-container {

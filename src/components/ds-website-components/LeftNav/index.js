@@ -33,6 +33,8 @@ class DSLeftNav extends React.Component {
               <li><NavLink exact to="/components/Avatar/" activeClassName="ds-nav-link-isActive">Avatar</NavLink></li>
               <li><NavLink exact to="/components/buttons/" activeClassName="ds-nav-link-isActive">Button</NavLink></li>
               <li><NavLink exact to="/components/Checkbox/" activeClassName="ds-nav-link-isActive">Checkbox</NavLink></li>
+              <li><NavLink exact to="/components/InputSearch/" activeClassName="ds-nav-link-isActive">Input Search</NavLink></li>
+              <li><NavLink exact to="/components/InputSelect/" activeClassName="ds-nav-link-isActive">Input Select</NavLink></li>
               <li><NavLink exact to="/components/InputText/" activeClassName="ds-nav-link-isActive">Input Text</NavLink></li>
               <li><NavLink exact to="/components/Radio/" activeClassName="ds-nav-link-isActive">Radio</NavLink></li>
               <li><NavLink exact to="/components/Switch/" activeClassName="ds-nav-link-isActive">Switch</NavLink></li>
