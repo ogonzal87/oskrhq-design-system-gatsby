@@ -1,19 +1,5 @@
-
-// Website Components
-@import '../scss/_styles.scss';
-@import './ds-website-components/MainContent/ds-main-content.scss';
-@import './ds-website-components/LeftNav/ds-left-nav.scss';
-@import './ds-website-components/LeftNavFooter/ds-left-nav-footer.scss';
-@import './ds-website-components/FooterMessage/ds-footer-message.scss';
-
-// OSKRHQ.DS Components
-@import './Button/ds-button.scss';
-@import './CircleButton/ds-circle-button.scss';
-@import './InputText/ds-input-text.scss';
-@import './Switch/ds-switch.scss';
-@import './Checkbox/ds-checkbox.scss';
-@import './Radio/ds-radio.scss';
-@import './Avatar/ds-avatar.scss';
-@import './TextArea/ds-text-area.scss';
-@import './InputSelect/ds-input-select.scss';
-@import './InputSearch/ds-input-search.scss';
+@import '../../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
+@import './MainContent/ds-main-content.scss';
+@import './LeftNav/ds-left-nav.scss';
+@import './LeftNavFooter/ds-left-nav-footer.scss';
+@import './FooterMessage/ds-footer-message.scss';

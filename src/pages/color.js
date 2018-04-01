@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import DSLeftNav from '../components/ds-website-components/LeftNav'
+import DSLeftNav from '../components/LeftNav'
 import PrimaryColorsImg from '../assets/color-page/ds-primary-colors.png'
 import FeedbackColorsImg from '../assets/color-page/ds-feedback-colors.png'
 import NeutralColorsImg from '../assets/color-page/ds-neutral-colors.png'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/ds-website-components/FooterMessage'
+import FooterMessage from '../components/FooterMessage'
 
 const Color = () => (
   <div className="ds-app-grid">

@@ -1,12 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import DSLeftNav from '../../components/ds-website-components/LeftNav'
+import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
-import FooterMessage from '../../components/ds-website-components/FooterMessage';
-import DSSwitch from '../../components/Switch/index'
+import FooterMessage from '../../components/FooterMessage';
 import styled from 'styled-components'
-import '../../scss/_styles.scss'
+import { DSSwitch } from '../../../node_modules/oskrhq-design-system/lib/index.js'
 
 class SwitchPage extends React.Component {
   state = {
