@@ -2,7 +2,7 @@
 This is a Design System + supporting tools created for Designers and Developers' joy. The system makes use of a CSS architecture based on a shared anatomy (Color, Typography, Space, Depth, and Motion), and a variety of Presentational Components written in React built from this shared anatomy. The system also has a UI Kit with available Sketch Symbols matching these React Components so Designers and Developers are always in sync.  😎  
 
 # **Consuming the System**
-Changes are your product has its own Brand Identity and styles that will not match what I went for. To take advantage of the architecture and the components but change the style values to reflect your Brand Identity, the only think you need to do is change the values in the `1-base` folder under `src > scss` for the ones that reflect your brand. As you change the base color palette for example, you will see that the UI will start reflecting your own personality.
+I am working on an NPM Package at the moment. In the meantime, you can copy the `components` and the `scss` folders and hook them up to your project while I get the npm package published.
 
 #### **Not using React?**
 I got you. Although you will not be able to take advantage of the react Components, you can still make use of the Shared Anatomy of Styles using SASS and customize it to your needs. If that is the case, the only folder you care about is the `scss` under the `src` folder. In the `1-base` folder, you will find what you need. 
