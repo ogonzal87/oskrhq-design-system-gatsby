@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import DSLeftNav from '../components/ds-website-components/LeftNav'
+import DSLeftNav from '../components/LeftNav'
 import gridExample2 from '../assets/space-page/gird-example2.jpg'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/ds-website-components/FooterMessage'
+import FooterMessage from '../components/FooterMessage'
 
 const Space = () => (
   <div className="ds-app-grid">

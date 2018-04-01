@@ -1,0 +1,64 @@
+@import '../../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
+
+.ds-leftnav-footer-wrapper {
+  box-sizing: border-box;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: ds-color(neutral, 000);
+  margin-top: ds-space(extra-loose);
+
+  .ds-leftnav-resources-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .ds-leftnav-resource {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+      height: 80px;
+
+      img {
+        width: 30px;
+        margin-bottom: 4px;
+      }
+
+      .github-img {
+        width: 25px;
+      }
+
+      span {
+        color: ds-color(neutral, 500)
+      }
+    }
+  }
+
+  .ds-profile-avatar{
+    border-radius: 50%;
+    height: 54px;
+    margin: 0;
+    margin-right: 16px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: ds-font-weight(subheading, bold); 
+    }
+
+    a {
+      margin: 0;
+      color: ds-color(neutral, 500);
+
+      &:hover {
+        color: ds-color(primary, 400);
+      }
+    }
+  }
+}
