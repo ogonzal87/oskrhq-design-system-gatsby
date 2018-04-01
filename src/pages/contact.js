@@ -21,7 +21,7 @@ const Contact = () => (
       <div className="ds-container">
         <h1>Let's Talk...</h1>
 
-        <H2HeadingContactPage className="ds-contact-subheading">I created and maintain this System as a personal project but if you would like to consume it, fork it or contribute, check out the <a href="https://github.com/ogonzal87/oskrhq-design-system-react" target="_blank">repo</a> to get started.</H2HeadingContactPage>
+        <H2HeadingContactPage className="ds-contact-subheading">I created and maintain this System as a personal project but if you would like to consume it, fork it or contribute, check out the <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">repo</a> to get started.</H2HeadingContactPage>
 
         <H2HeadingContactPage className="ds-contact-subheading" style={{ marginBottom: "80px" }}>For more info about this Design System and others I have created, feel free to email me @ <a href="mailto:oscar@oskrhq.com?Subject=Hello!" target="_top">oscar@oskrhq.com</a>. I would love to geek out.</H2HeadingContactPage>
 
