@@ -1,8 +1,6 @@
+ @import './pages/_pages-dir';
 
-
-@import './pages/_pages-dir';
-
-$ds-left-nav-width: 350px;
+ $ds-left-nav-width: 350px;
 
 .ds-app-grid {
   display: grid;
@@ -10,4 +8,4 @@ $ds-left-nav-width: 350px;
   grid-template-areas: 
     "ds-left-nav    ds-main-content";
   grid-gap: 0;
-} 
+}

@@ -4,7 +4,7 @@ import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
-import { DSInputSearch } from '../../../node_modules/oskrhq-design-system/lib/index.js'
+// import { DSInputSearch } from '../../../node_modules/oskrhq-design-system/lib/index.js'
 
 
 const InputSearchPage = () => (
@@ -17,14 +17,14 @@ const InputSearchPage = () => (
 
         <h3 className="subheading">Search Inputs allow users to search data matching a value.</h3>
 
-        <DSInputSearch label="Full Name" placeholder="Search Users" autoFocus/>
+        {/* <DSInputSearch label="Full Name" placeholder="Search Users" autoFocus/> */}
 
         <div className="ds-col-container">
           <div className="ds-col-6">
             
           </div>
           <div className="ds-col-6">
-            <DSInputSearch label="Full Name" value="John Doe"/>
+            {/* <DSInputSearch label="Full Name" value="John Doe"/> */}
           </div>
         </div>
 
