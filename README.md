@@ -1,14 +1,17 @@
-# **Welcome**
-This is a Design System + supporting tools created for Designers and Developers' joy. The system makes use of a CSS architecture based on a shared anatomy (Color, Typography, Space, Depth, and Motion), and a variety of Presentational Components written in React built from this shared anatomy. The system also has a UI Kit with available Sketch Symbols matching these React Components so Designers and Developers are always in sync.  😎  
+# **OSKRHQ.DS Website**
+This is a website made to showcase a [Design System](https://github.com/ogonzal87/oskrhq-design-system) I created from scratch. The system was created for both Designers and Developers. It makes use of a CSS architecture based on a shared anatomy (Color, Typography, Space, Depth, and Motion), and a variety of React Presentational Components built from this shared anatomy. The system also has a UI Kit with available Sketch Symbols matching these React Components so Designers and Developers are always in sync. 🤙🏽 
 
-# **Consuming the System**
-I am working on an NPM Package at the moment. In the meantime, you can copy the `components` and the `scss` folders and hook them up to your project while I get the npm package published.
-
-#### **Not using React?**
-I got you. Although you will not be able to take advantage of the react Components, you can still make use of the Shared Anatomy of Styles using SASS and customize it to your needs. If that is the case, the only folder you care about is the `scss` under the `src` folder. In the `1-base` folder, you will find what you need. 
+# **Usage**
+Head to the Design System's repo [here](https://github.com/ogonzal87/oskrhq-design-system).
 
 #### **Are you a Designer?**
-You are not lost, feel free to dig through the code but you will be more interested in the UI Kit which mirrors this repo code. You can find it [here](https://github.com/ogonzal87/oskrhq-uikit-mobile-app).
+You are not lost, feel free to dig through the code but you will be more interested in the UI Kit which mirrors this repo code. You can find it [here](https://github.com/ogonzal87/oskrhq-uikit).
+
+## Methodology
+Read my Medium series [here](https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf)
+
+## Licenses
+* Source code is licensed under [MIT](https://opensource.org/licenses/MIT)
 
 # FAQ's
 
