@@ -1,2 +1,0 @@
-webpackJsonp([0xb57c6293dd25],{385:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(2),d=l(n),u=a(18),c=(l(u),a(26)),s=l(c),r=function(){return d.default.createElement("div",{className:"ds-app-grid"},d.default.createElement(s.default,null),d.default.createElement("div",{className:"ds-main-content"},d.default.createElement("div",{className:"ds-container"},d.default.createElement("h1",null,"Depth"))))};t.default=r,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-depth-js-d7f536bd41342f3f7168.js.map
