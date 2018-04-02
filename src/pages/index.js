@@ -29,9 +29,9 @@ const IndexPage = () => (
 
         <div className="ds-col-container">
           <div className="ds-col-5">
-            <p>OSKRHQ.DS is a Styleguide AND a Component Library written in React for both web and mobile. Although this website consumes the system, the site of is just a face for what it really is. The magic is in the code which allows Design and Code to coexists in one sole visual language. All this, so that product teams can compose many products from the same Brand Identity or UI Anatomy.</p>
+            <p>OSKRHQ.DS is a Styleguide AND a Component Library written in React for both web and mobile. Although this website consumes the system, the site of is just a face for what it really is. The magic is in the code which allows Design and Code to coexists in one sole visual language. All this, so that product teams can compose products from the same Brand Identity or UI Anatomy.</p>
 
-            <p>Every UI element you see here was composed from the same 5 foundational elements or what I call <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">The Anatomy of UI</a>; Color, Typography, Space, Motion, and Depth</p>
+            <p>Every UI element you see here was composed from the same 5 foundational elements or what I call <a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">The Anatomy of UI</a>: Color, Typography, Space, Motion, and Depth.</p>
           </div>
 
           <div className="ds-col-7">
@@ -71,7 +71,7 @@ const IndexPage = () => (
           </div>
 
           <div className="ds-col-6">
-            <p>If you are a Developer, check the <a href="https://github.com/ogonzal87/oskrhq-design-system-react" target="blank">Github repo</a> from guidance. And if you feel like contributing, it would make my day 😎</p>
+            <p>If you are a Developer, check the <a href="https://github.com/ogonzal87/oskrhq-design-system" target="blank">Github repo</a> from guidance. And if you feel like contributing, it would make my day 😎</p>
           </div>
         </div>
       </div>

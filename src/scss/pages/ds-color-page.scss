@@ -1,3 +1,5 @@
+@import '../../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
+
 .ds-color-wrapper {
   display: flex;
   flex-direction: row;
@@ -20,17 +22,17 @@
   }
   
   .brand-colors-container {
-    width: 286px;
-    margin-right: 100px;
+    width: 304px;
+    margin-right: 80px;
   }
 
   .feedback-colors-container {
-    width: 381px;
-    margin-right: 100px;
+    width: 398px;
+    margin-right: 80px;
   }
 
   .neutral-colors-container {
-    width: 80px;
+    width: 96px;
   }
 }
 

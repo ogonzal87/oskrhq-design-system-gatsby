@@ -12,7 +12,7 @@ const Typography = () => (
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Typography</h1>
-        <h3 className="subheading">Inspired by Material’s Design, these typographic styles are flexible enough to be used in both web and mobile.</h3>
+        <h3 className="subheading">Inspired by Material Design, these typographic styles are flexible enough to be used in both web and mobile.</h3>
 
         <p className="ds-button-text-style ds-typography-typeface">Lato Typeface</p>
 

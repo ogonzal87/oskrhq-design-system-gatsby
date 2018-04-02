@@ -40,14 +40,14 @@ const Color = () => (
           </div>
 
           <div className="ds-col-6">
-            <p className="ds-color-page-body"><strong>Brand Colors</strong> are the personality of the brand. They should be used as accent elements such as primary buttons, CTA's and links. <strong>Feedback Colors</strong> are uses to communicate Status to the user and <strong>Neutral Colors</strong> are used for things like text, borders, shadows, backgrounds, etc.</p>
+            <p className="ds-color-page-body"><strong>Brand Colors</strong> are the personality of the brand. They should be used as accent elements such as primary buttons, CTA's and links. <strong>Feedback Colors</strong> are used to communicate Status to the user and <strong>Neutral Colors</strong> are used for things like text, borders, shadows, background colors, etc.</p>
           </div>
 
         </div>
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>All UI elements make use of a sass function; <code>ds-color($variable, $range)</code> where <code>$varible</code> is the type of color and the <code>$range</code> is the number in the scale which determines how light or dark that color will be. This ensures consistency as it prevents hard coding #HEX values when creating new UI elements or pages.</p>
+        <p>All UI elements make use of a sass function; <code>ds-color($variable, $range)</code> where <code>$varible</code> is the type of color and the <code>$range</code> is the number in the scale which determines how light or dark that color will be. This ensures consistency as it prevents hard coding #HEX values when creating or updating UI elements or pages.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-box {
