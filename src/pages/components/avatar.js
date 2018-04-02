@@ -34,7 +34,7 @@ class AvatarPage extends React.Component {
           <div className="ds-container">
             <h1>Avatar</h1>
 
-            <h3 className="subheading">Avatars allow to display a person's Profile Image.</h3>
+            <h3 className="subheading">Avatars allow a person's profile image to be displayed.</h3>
 
             <SpecimenWrapper>
               <Specimen>

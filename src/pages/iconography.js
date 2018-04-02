@@ -49,7 +49,7 @@ const Iconography = () => (
         <div className="ds-col-container">
           
           <div className="ds-col-6">
-            <p>The system uses Material Design icons. You can just include the icon in your mark up with an <code>i</code> tag and one of the utility classes above to keep sizing consistent.</p>
+            <p>The system uses the Material Design Icon Font, although I am creating my own set using svg's and will be releasing them soon. To use Material Icons, you can just include a <code>i</code> tag in your mark up and add one of the utility classes above for sizing.</p>
           </div>
 
           <div className="ds-col-6">

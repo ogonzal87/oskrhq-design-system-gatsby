@@ -93,7 +93,7 @@ const Motion = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>When declaring transitions, make use of <code>ds-duration($variable)</code> sass function for timing where <code>$variable</code> is a value in a predictive scale ranging from "slowest" to "fast", and <code>ds-easing($variable)</code> where <code>$variable</code> is a cubic bezier curve declaring the type of animation given a certain duration. You can choose from "base", "in", out, "out", "excite", "overshot", "anticipate". Hover the circles above to see the difference between them.</p>
+        <p>When declaring transitions, make use of <code>ds-duration($variable)</code> sass function for timing where <code>$variable</code> is a value in a predictive scale ranging from "slowest" to "fast", and <code>ds-easing($variable)</code> where <code>$variable</code> is a cubic bezier curve declaring the type of animation given a certain duration. You can choose from "base", "in", "out", "excite", "overshot", "anticipate". Hover the circles above to see the difference between each of them.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-ball {

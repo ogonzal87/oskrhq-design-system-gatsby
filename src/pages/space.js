@@ -21,7 +21,7 @@ const Space = () => (
         <div className="ds-col-container">
           
           <div className="ds-col-6">
-            <p>I use a combination of a Soft a Hard 8-Point-Grid System. This means that space uses multiples of 8px to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and avoids many headaches when designers are discussing space with developers.</p>
+            <p>Digital Screens are made of a grid of teeny-tiny pixels. Kinda like a <a href="https://youtu.be/UdWCUr1FDqU?t=51s" target="_blank">microscopic net</a>. Following this mental model, I use a combination of a Soft a Hard 8-Point-Grid System. This means that space uses multiples of 8px to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and avoids many headaches when designers are discussing space with developers.</p>
           </div>
 
           <div className="ds-col-6">
@@ -67,7 +67,7 @@ const Space = () => (
 
         <h4>Fluid Space</h4>
 
-        <p>For containers or elements that need to be fluid, the system uses a 12-column system with css utility classes for its use. <strong>Just make sure you wrap the column elements with a div and assign it this css class: <code>.ds-col-container</code></strong>.</p>
+        <p>For containers or elements that need to be fluid, as in they need to expand a certain percentage of a container, the system uses a 12-column system along the x-axis with scss utility classes for its use. <strong>Just make sure you wrap the column elements with a div and assign it this css class: <code>.ds-col-container</code></strong>.</p>
 
         <div className="ds-col-container ds-space-col-specimen-container">
           <div className="ds-box ds-col-12"><code>.ds-col-12</code></div>
@@ -86,7 +86,7 @@ const Space = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>For fixed spacing, make use of the sass function <code>ds-space($variable)</code> where <code>$variable</code> is either extra-tight (4px), tight (8px), base (16px), bit-loose (24px), loose (32px), extra-loose (48px), super-loose (64px). In most cases, you will be using Fluid Space with the column system to layout content and elements on the screen, and Fixed Spacing when composing these elements.</p>
+        <p>For fixed spacing, make use of the sass function <code>ds-space($variable)</code> where <code>$variable</code> is either extra-tight (4px), tight (8px), base (16px), bit-loose (24px), loose (32px), extra-loose (48px), or super-loose (64px). In most cases, you will use Fluid Space to layout content and elements on the screen, and Fixed Spacing when composing these elements.</p>
 
         <Highlight className='html'>
 {`<div class="ds-col-container">

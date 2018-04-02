@@ -33,7 +33,7 @@ const Depth = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>There are 5 levels of depth in the system. By making use of the sass function <code>ds-depth($range)</code>, where <code>$range</code> is a value from 100 through 500, you can create levels of visual hierarchy. The higher the number the more elevated an item will appear. Use this when you are trying to emphasize sections of UI like containers or buttons.</p>
+        <p>By making use of the sass function <code>ds-depth($range)</code>, where <code>$range</code> is a value from 100 through 500, you can create levels of visual hierarchy. The higher the number, the more elevated an item will appear. Use this when you are trying to emphasize sections of UI like containers or buttons.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-container-coming-at-you {
