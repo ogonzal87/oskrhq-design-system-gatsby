@@ -4,7 +4,7 @@ import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
-import { DSInputSearch } from '../../../node_modules/oskrhq-design-system/lib/index.js'
+import { DSInputSearch } from '../../../node_modules/oskrhq-design-system/build/index.js'
 
 
 const InputSearchPage = () => (

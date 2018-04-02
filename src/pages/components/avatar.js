@@ -4,7 +4,7 @@ import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
-import { DSAvatar } from '../../../node_modules/oskrhq-design-system/lib/index.js'
+import { DSAvatar } from '../../../node_modules/oskrhq-design-system/build/index.js'
 import styled from 'styled-components'
 import MichaelScottImg from '../../assets/avatar-page/michael-scott.jpg'
 

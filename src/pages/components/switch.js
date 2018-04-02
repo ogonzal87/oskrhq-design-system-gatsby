@@ -5,7 +5,7 @@ import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
 import styled from 'styled-components'
-import { DSSwitch } from '../../../node_modules/oskrhq-design-system/lib/index.js'
+import { DSSwitch } from '../../../node_modules/oskrhq-design-system/build/index.js'
 
 class SwitchPage extends React.Component {
   state = {
