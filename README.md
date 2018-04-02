@@ -1,5 +1,5 @@
 # **OSKRHQ.DS Website**
-This is a website made to showcase a [Design System](https://github.com/ogonzal87/oskrhq-design-system) I created from scratch. The system was created for both Designers and Developers. It makes use of a CSS architecture based on a shared anatomy (Color, Typography, Space, Depth, and Motion), and a variety of React Presentational Components built from this shared anatomy. The system also has a UI Kit with available Sketch Symbols matching these React Components so Designers and Developers are always in sync. 🤙🏽 
+This is a website made to showcase a Design System I created from scratch. The website itself is consuming the system which you can find and download the npm package [here](https://github.com/ogonzal87/oskrhq-design-system). The system was created for both Designers and Developers. It makes use of a CSS architecture based on a shared anatomy (Color, Typography, Space, Depth, and Motion), and a variety of React Presentational Components built from this shared anatomy. The system also has a UI Kit with available Sketch Symbols matching these React Components so Designers and Developers are always in sync. 🤙🏽 
 
 # **Usage**
 Head to the Design System's repo [here](https://github.com/ogonzal87/oskrhq-design-system).
