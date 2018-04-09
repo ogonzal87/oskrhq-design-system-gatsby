@@ -1,6 +1,7 @@
 @import '../../../node_modules/oskrhq-design-system/lib/styles/styles.scss';
 
 .ds-depth-specimens-container {
+  margin-top: ds-space(super-loose) * 2 ;
   display: flex;
   flex-direction: row;
   width: 100%;

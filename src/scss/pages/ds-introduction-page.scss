@@ -14,7 +14,7 @@
 
   .ds-intro-splash {
     position: absolute;
-    left: 900px;
+    left: 750px;
     bottom: 0;
     width: 650px;
     z-index: 2;
@@ -40,6 +40,17 @@
       color: ds-color(neutral, 600);
     }
   }
+}
+
+.ds-intro-principle-number {
+  color: ds-color(neutral, 000);
+  position: absolute;
+  top: 32px;
+  left: 5px;
+}
+
+.ds-intro-principle-title {
+  color: ds-color(neutral, 500);
 }
 
 .ds-intro-second-section-container {

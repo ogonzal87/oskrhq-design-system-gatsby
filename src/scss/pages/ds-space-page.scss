@@ -24,7 +24,7 @@
   flex-direction: row;
 
   code {
-    font-size: ds-font-size(caption) * .90;
+    font-size: ds-font-size(caption) * .90 !important;
     margin-top: ds-space(tight);
   }
 
@@ -78,5 +78,5 @@
 }
 
 .ds-space-col-specimen-container {
-  @include grid-visual;
+  // @include grid-visual;
 }

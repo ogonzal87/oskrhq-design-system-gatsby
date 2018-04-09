@@ -49,11 +49,11 @@ const Iconography = () => (
         <div className="ds-col-container">
           
           <div className="ds-col-6">
-            <p>The system uses the Material Design Icon Font, although I am creating my own set using svg's and will be releasing them soon. To use Material Icons, you can just include a <code>i</code> tag in your mark up and add one of the utility classes above for sizing.</p>
+            <p className="ds-subheading-text-style">The system uses the Material Design Icon Font, although I am creating my own set using svg's and will be releasing them soon. To use Material Icons, you can just include a <code>i</code> tag in your mark up and add one of the utility classes above for sizing.</p>
           </div>
 
           <div className="ds-col-6">
-            <p>☝🏽<strong>For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons website</a>.</strong></p>  
+            <p className="ds-subheading-text-style">☝🏽<strong>For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons website</a>.</strong></p>  
           </div>
 
         </div>

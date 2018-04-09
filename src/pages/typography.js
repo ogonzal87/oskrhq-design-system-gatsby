@@ -4,6 +4,19 @@ import DSLeftNav from '../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
 import FooterMessage from '../components/FooterMessage'
+import styled from 'styled-components'
+
+const SectionCopy = styled.div`
+  margin: 200px 0 300px 0;
+`
+
+const SectionCode = styled.div`
+  margin-top: 40px;
+`
+
+const SectionCodePen = styled.div`
+  margin: 200px 0;
+`
 
 const Typography = () => (
   <div className="ds-app-grid">
@@ -12,7 +25,7 @@ const Typography = () => (
     <div className="ds-main-content">
       <div className="ds-container">
         <h1>Typography</h1>
-        <h3 className="subheading">Inspired by Material Design, these typographic styles are flexible enough to be used in both web and mobile.</h3>
+        <h3 className="subheading"><i>“Typography is more art than engineering—though engineering is certainly a part of it”</i> - Robert Bringhurst.</h3>
 
         <p className="ds-button-text-style ds-typography-typeface">Lato Typeface</p>
 
@@ -77,23 +90,42 @@ const Typography = () => (
           </div>
         </div>
 
+        <SectionCopy>
+          <div className="ds-col-container">
+            <div className="ds-col-6">
+              <p className="ds-typography-typeface ds-button-text-style">Typeface Rationale</p>
+              <p className="ds-subheading-text-style">No. I did not choose <i>Lato</i> because it is a free Typeface (although it did influence my decision 😬). I really chose it because I wanted a Sans Serif that looked both professional and energetic (more energetic than professional, though), was readable in both web and mobile with fast render speeds and had support for Spanish Glyphs. I plan on translating the System so that was important for me. I considered using Libre Baskerville for Headings and Futura for body text but making them work under Material's Type scale just did not cut it.</p>
+            </div>
+          
 
+            <div className="ds-col-6">
+              <p className="ds-typography-typeface ds-button-text-style">Type Scale Rationale</p>
+              <p className="ds-subheading-text-style">I should say something clever here but the real reason was that Google's Design team already solved for a scale that was extensible enough for both web and mobile and used an 8-point grid... Why reinvent the wheel? Part of me wanted to create my own, but I am a one-man shop. Type Scales that work well on any screen, are not as simple as just arbitrarily applying a Golden Ratio (1.6) or a Perfect Fifth (1.5). Let's just say, I deeply admire Typographers...</p>
+            </div>
+          </div>
+        </SectionCopy>
 
         <h4>Usage</h4>
 
-        <p>Every typographic style defined above already has a utility class you can use such as <code>.ds-display2-text-style</code>. Although not advised, you can create your own from a standard base of utility sass functions; <code>ds-font-size()</code>, <code>ds-font-weight()</code>, <code>ds-line-height()</code>, and <code>ds-color()</code>.</p>
-
-        <Highlight className='scss'>
-          {`.my-new-big-text {
+        <p className="ds-subheading-text-style">Every typographic style defined above already has a utility class you can use such as <code>.ds-display2-text-style</code>. Although not advised, you can create your own from a standard base of utility sass functions; <code>ds-font-size()</code>, <code>ds-font-weight()</code>, <code>ds-line-height()</code>, and <code>ds-color()</code>. When creating your own combination, keep in mind that these have to complement each other, specially line-height and font-size.</p>
+        
+        <SectionCode>
+          <Highlight className='scss'>
+          {`.my-new-ugly-big-text {
   font-size:   ds-font-size(display4, base);
   line-height: ds-line-height(display4, base);
   font-weight: ds-font-weight(display4, bold);
   color:       ds-color(secondary, 600);
 }`}
-        </Highlight>
+          </Highlight>
+        </SectionCode>
 
-        <iframe height='506' scrolling='no' title='oskrhq-design-system-typography' src='//codepen.io/ogonzal87/embed/QQROOx/?height=506&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/QQROOx/'>oskrhq-design-system-typography</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
-        </iframe>
+        <SectionCodePen>
+          <h4>Playground</h4>
+          <p className="ds-subheading-text-style">Feel free to play around with the utility funtions and classes. Just scroll all the way to the bottom of the SCSS file, and instantiate your new Typography Styles there.</p>
+          <iframe height='506' scrolling='no' title='oskrhq-design-system-typography' src='//codepen.io/ogonzal87/embed/QQROOx/?height=506&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/QQROOx/'>oskrhq-design-system-typography</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </SectionCodePen>
       </div>
 
       <FooterMessage />

@@ -8,4 +8,46 @@
   grid-template-areas: 
     "ds-left-nav    ds-main-content";
   grid-gap: 0;
+  
+  code {
+    font-size: ds-font-size(subheading);
+  }
+
+  .ds-col-container {
+    .ds-col-1:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-2:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-3:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-4:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-5:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-6:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-7:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-8:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-9:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-10:first-child {
+      margin-left: 20px;
+    }
+    .ds-col-11:first-child {
+      margin-left: 20px;
+    }
+  }
+  
 }
+

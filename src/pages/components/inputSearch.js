@@ -21,9 +21,6 @@ const InputSearchPage = () => (
 
         <div className="ds-col-container">
           <div className="ds-col-6">
-            
-          </div>
-          <div className="ds-col-6">
             <DSInputSearch label="Full Name" value="John Doe" />
           </div>
         </div>
