@@ -1,11 +1,12 @@
 {
-  "name": "OSKRHQ Design System Website",
+  "name": "oskrhq-design-system-website",
   "description": "",
   "version": "1.0.0",
   "author": "Oscar Gonzalez oskrhq.com/",
   "dependencies": {
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.37",
+    "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-sass": "^1.0.18",
     "oskrhq-design-system": "^0.1.9",
