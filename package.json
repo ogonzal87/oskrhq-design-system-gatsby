@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "OSKRHQ Design System Website",
   "description": "",
   "version": "1.0.0",
   "author": "Oscar Gonzalez oskrhq.com/",
@@ -8,7 +8,7 @@
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-sass": "^1.0.18",
-    "oskrhq-design-system": "^0.1.6",
+    "oskrhq-design-system": "^0.1.9",
     "react-helmet": "^5.2.0",
     "react-highlight": "^0.10.0",
     "react-markdown": "^3.2.2",

@@ -100,7 +100,7 @@ const Typography = () => (
 
             <div className="ds-col-6">
               <p className="ds-typography-typeface ds-button-text-style">Type Scale Rationale</p>
-              <p className="ds-subheading-text-style">I should say something clever here but the real reason was that Google's Design team already solved for a scale that was extensible enough for both web and mobile and used an 8-point grid... Why reinvent the wheel? Part of me wanted to create my own, but I am a one-man shop. Type Scales that work well on any screen, are not as simple as just arbitrarily applying a Golden Ratio (1.6) or a Perfect Fifth (1.5). Let's just say, I deeply admire Typographers...</p>
+              <p className="ds-subheading-text-style">This scale is inspired by Material Design's Type scale since the team already solved for a scale that was extensible enough for both web and mobile and used an 8-point grid... Why reinvent the wheel? Part of me wanted to create my own, but I am a one-man shop. Type Scales that work well on any screen, are not as simple as just arbitrarily applying a Golden Ratio (1.6) or a Perfect Fifth (1.5). Let's just say, I deeply admire Typographers...</p>
             </div>
           </div>
         </SectionCopy>
