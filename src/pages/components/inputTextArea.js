@@ -28,7 +28,7 @@ const TextAreaPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>Text Areas are tools the user has to communicate something to the app. In this system, they are a Presentational React Components that you can use by simply instantiate a <code>DSTextArea</code> tag and passing attributes for label <code>(string)</code>, cols <code>(string)</code>, value <code>(string)</code> and a placeholder <code>(string)</code>.</p>
+        <p className="ds-subheading-text-style">Text Areas are tools the user has to communicate something to the app. In this system, they are a Presentational React Components that you can use by simply instantiate a <code>DSTextArea</code> tag and passing attributes for label <code>(string)</code>, cols <code>(string)</code>, value <code>(string)</code> and a placeholder <code>(string)</code>.</p>
 
         <Highlight className='html'>
           {`<DSTextArea 

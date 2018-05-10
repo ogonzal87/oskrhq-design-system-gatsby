@@ -9,13 +9,13 @@
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-sass": "^1.0.18",
-    "oskrhq-design-system": "^0.1.9",
     "react-helmet": "^5.2.0",
     "react-highlight": "^0.10.0",
     "react-markdown": "^3.2.2",
     "react-parallax-component": "^1.0.6",
     "react-plx": "^1.0.6",
-    "styled-components": "^3.2.3"
+    "styled-components": "^3.2.3",
+    "oskrhq-design-system": "^1.0.1"
   },
   "keywords": [
     "gatsby"

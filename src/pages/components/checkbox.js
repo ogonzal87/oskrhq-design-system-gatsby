@@ -9,20 +9,13 @@ import styled from 'styled-components'
 
 class CheckboxPage extends React.Component {
   state = {
-    checkboxA: false,
-    checkboxB: true,
+    checkboxA: true,
+    checkboxB: false
   };
 
-
-  handleChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
-
-    this.setState({
-      [name]: value
-    });
-  }
+  handleChange = name => event => {
+    this.setState({ [name]: event.target.checked });
+  };
 
   render() {
     return (
@@ -33,22 +26,27 @@ class CheckboxPage extends React.Component {
           <div className="ds-container">
             <h1>Checkbox</h1>
 
-            <h3 className="subheading">Binary checkboxes allow the selection of multiple options from a set.</h3>
+            <h3 className="subheading">
+              Binary checkboxes allow the selection of multiple options from a
+              set.
+            </h3>
 
             <div className="ds-col-container">
               <div className="ds-col-6">
                 <DSCheckbox
                   name="checkboxA"
-                  label="Unchecked Checkbox"
-                  onChange={this.handleChange}
+                  labelText="Unchecked Checkbox"
+                  onChange={this.handleChange('checkboxA')}
+                  value="checkboxA"
                   checked={this.state.checkboxA}
                 />
               </div>
               <div className="ds-col-6">
-                <DSCheckbox
+                <DSCheckbox  
                   name="checkboxB"
-                  label="Checked Checkbox"
-                  onChange={this.handleChange}
+                  labelText="Checked Checkbox"
+                  onChange={this.handleChange('checkboxB')}
+                  value="checkboxB"
                   checked={this.state.checkboxB}
                 />
               </div>
@@ -56,50 +54,51 @@ class CheckboxPage extends React.Component {
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p>Checkboxes are tools the user has to communicate something to the app. In this app they are a Presentational React Components that you can use by simply instantiate a <code>DSCheckbox</code> tag and passing attributes for name <code>(string)</code>, onChange <code>(function)</code>, checked <code>(boolean)</code>, and label <code>(string)</code>.</p>
+            <p className="ds-subheading-text-style">
+              Checkboxes are tools the user has to communicate something to the
+              app. In this app they are a Presentational React Components that
+              you can use by simply instantiate a <code>DSCheckbox</code> tag
+              and passing attributes for name <code>(string)</code>, onChange{" "}
+              <code>(function)</code>, checked <code>(boolean)</code>, and label{" "}
+              <code>(string)</code>.
+            </p>
 
-            <Highlight className='jsx'>
+            <Highlight className="jsx">
               {`class DemoPage extends React.Component {
   state = {
     checkedA: false,
     checkedB: true,
   };
 
-  handleChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
-
-    this.setState({
-      [name]: value
-    });
-  }
+  handleChange = name => event => {
+    this.setState({ [name]: event.target.checked });
+  };
 
   render() {
     return (
 
       <DSCheckbox
         name="checkboxA"  
-        label="Option 1"
-        onChange={this.handleChange}
+        labelText="Option 1"
+        onChange={this.handleChange('checkboxA')}
+        value="checkboxB"
         checked={this.state.checkboxA}
       />
               
       <DSCheckbox
         name="checkboxB"  
-        label="Option 2"
-        onChange={this.handleChange}
+        labelText="Option 2"
+        onChange={this.handleChange('checkboxB')}
+        value="checkboxB"
         checked={this.state.checkboxB}
       />
     )
   }
 }`}
             </Highlight>
-
           </div>
 
           <FooterMessage />
-
         </div>
       </div>
     );

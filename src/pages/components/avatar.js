@@ -38,26 +38,26 @@ class AvatarPage extends React.Component {
 
             <SpecimenWrapper>
               <Specimen>
-                <DSAvatar userImg={MichaelScottImg} size="small" /> 
+                <DSAvatar src={MichaelScottImg} size="small" /> 
                 <code style={{ marginTop: '8px' }}>small</code>
               </Specimen>  
               <Specimen>
-                <DSAvatar userImg={MichaelScottImg} />
+                <DSAvatar src={MichaelScottImg} />
                 <code style={{ marginTop: '8px' }}>base</code>
               </Specimen>
               <Specimen>
-                <DSAvatar userImg={MichaelScottImg} size="medium" />
+                <DSAvatar src={MichaelScottImg} size="medium" />
                 <code style={{ marginTop: '8px' }}>medium</code>
               </Specimen>  
               <Specimen>
-                <DSAvatar userImg={MichaelScottImg} size="large" />
+                <DSAvatar src={MichaelScottImg} size="large" />
                 <code style={{ marginTop: '8px' }}>large</code>
               </Specimen>  
             </SpecimenWrapper>
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p>Avatars are Presentational React Components that you can use by simply instantiate a <code>DSAvatar</code> tag and pass attributes for userImg <code>(string | obj)</code>, and size <code>(string)</code>.</p>
+            <p className="ds-subheading-text-style">Avatars are Presentational React Components that you can use by simply instantiate a <code>DSAvatar</code> tag and pass attributes for userImg <code>(string | obj)</code>, and size <code>(string)</code>.</p>
 
             <Highlight className='jsx'>
               {`import Img from './img.jpg'

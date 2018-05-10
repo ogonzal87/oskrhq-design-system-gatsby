@@ -5,7 +5,6 @@ import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
 import { DSButton } from '../../../node_modules/oskrhq-design-system/build/index.js'
-import { DSCircleButton } from '../../../node_modules/oskrhq-design-system/build/index.js'
 import styled from 'styled-components'
 
 const SpecimenWrapper = styled.div`
@@ -29,57 +28,75 @@ const ButtonsPage = () => (
       <div className="ds-container">
         <h1>Buttons</h1>
 
-        <h3 className="subheading">Buttons make common actions immediately visible and easy to perform with one click or tap.</h3>
+        <h3 className="subheading">
+          Buttons make common actions immediately visible and easy to perform
+          with one click or tap.
+        </h3>
 
-        <h4>Types</h4>        
+        <h4>Types</h4>
         <SpecimenWrapper>
-          <DSButton label="Primary" type="primary"/>
-          <DSButton label="Secondary" type="secondary"/>
-          <DSButton label="success" type="success"/>
-          <DSButton label="info" type="info"/>
-          <DSButton label="danger" type="danger" />
-          <DSButton label="ghost" type="ghost" />
+          <DSButton type="primary">Primary</DSButton>
+          <DSButton type="secondary">Secondary</DSButton>
+          <DSButton type="success">Success</DSButton>
+          <DSButton type="info">Info</DSButton>
+          <DSButton type="danger">Danger</DSButton>
+          <DSButton type="ghost">Ghost</DSButton>
         </SpecimenWrapper>
 
         <SpecimenWrapper>
-          <DSCircleButton icon="face" type="primary" />
-          <DSCircleButton icon="face" type="secondary" />
-          <DSCircleButton icon="face" type="success" />
-          <DSCircleButton icon="face" type="info" />
-          <DSCircleButton icon="face" type="danger" />
-          <DSCircleButton icon="face" type="ghost" />
+          <DSButton icon="face" type="primary" circle />
+          <DSButton icon="face" type="secondary" circle />
+          <DSButton icon="face" type="success" circle />
+          <DSButton icon="face" type="info" circle />
+          <DSButton icon="face" type="danger" circle />
+          <DSButton icon="face" type="ghost" circle />
         </SpecimenWrapper>
 
         <SpecimenSizeWrapper>
           <h4>Sizes</h4>
-          <DSButton label="Small" type="primary" size="small" />
-          <DSButton label="Medium" type="primary" size="medium" />
-          <DSButton label="Fluid" type="primary" />
-        </SpecimenSizeWrapper>        
-        
+          <DSButton type="primary" size="small">
+            Small
+          </DSButton>
+          <DSButton type="primary" size="medium">
+            Medium
+          </DSButton>
+          <DSButton type="primary">Fluid</DSButton>
+        </SpecimenSizeWrapper>
+
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p>Buttons are tools the user has to communicate something to the app and perform a desired action. In this system they are a Presentational React Components that you can use by simply instantiate by creating a <code>DSButton</code> tag and passing attributes for type <code>(string)</code>, size <code>(string)</code>, and a label <code>(string)</code>. You can also use a Circle Button by instantiating a <code>DSCircleButton</code> tag and passing attributes for icon <code>(string)</code> and type <code>(string)</code>. Check out the Iconography page as well.</p>
+        <p className="ds-subheading-text-style">
+          Buttons are tools the user has to communicate something to the app and
+          perform a desired action. In this system they are a Presentational
+          React Components that you can use by simply instantiate by creating a{" "}
+          <code>DSButton</code> tag and passing attributes for type{" "}
+          <code>(string)</code>, size <code>(string)</code>, and a label{" "}
+          <code>(string)</code>. You can also use a Circle Button by
+          instantiating a <code>DSButton</code> tag and passing attributes for
+          icon <code>(string)</code> and type <code>(string)</code>. Check out
+          the Iconography page as well.
+        </p>
 
-        <Highlight className='html'>
+        <Highlight className="html">
           {`<DSButton 
-  label="save"
   type="primary"
   size="fluid"
-  onClick="doSomething"
-/>
+  onClick="doSomething">
+  Save
+</DSButton>
 
-<DSCircleButton 
+
+<DSButton
+  circle  
   icon="face" 
-  type="primary" 
+  type="primary"
 />`}
         </Highlight>
-
       </div>
 
       <FooterMessage />
     </div>
   </div>
-)
+);
 
 export default ButtonsPage;
