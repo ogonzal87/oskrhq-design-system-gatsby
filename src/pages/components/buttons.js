@@ -2,9 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
-import '../../../node_modules/highlight.js/styles/dracula.css'
+import { DSButton } from "oskrhq-design-system";
 import FooterMessage from '../../components/FooterMessage';
-import { DSButton } from '../../../node_modules/oskrhq-design-system/build/index.js'
 import styled from 'styled-components'
 
 const SpecimenWrapper = styled.div`

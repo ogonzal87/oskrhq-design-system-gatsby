@@ -2,9 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
-import '../../../node_modules/highlight.js/styles/dracula.css'
+import { DSAvatar } from 'oskrhq-design-system'
 import FooterMessage from '../../components/FooterMessage';
-import { DSAvatar } from '../../../node_modules/oskrhq-design-system/build/index.js'
 import styled from 'styled-components'
 import MichaelScottImg from '../../assets/avatar-page/michael-scott.jpg'
 
@@ -66,7 +65,7 @@ class DemoPage extends React.Component {
   render() {
     return (
       <DSAvatar
-        userImg={Img}
+        src={Img}
         size="large"
       />
     )

@@ -5,7 +5,7 @@ import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
 import styled from 'styled-components'
-import { DSInputText } from '../../../node_modules/oskrhq-design-system/build/index.js'
+import { DSInputText } from 'oskrhq-design-system'
 
 const InputTextPage = () => (
   <div className="ds-app-grid">

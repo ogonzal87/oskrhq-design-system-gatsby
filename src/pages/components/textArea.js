@@ -5,7 +5,7 @@ import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
 import styled from 'styled-components'
-import { DSTextArea } from '../../../node_modules/oskrhq-design-system/build/index.js'
+import { DSTextArea } from 'oskrhq-design-system'
 
 const TextAreaPage = () => (
   <div className="ds-app-grid">

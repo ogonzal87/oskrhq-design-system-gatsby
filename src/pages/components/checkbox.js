@@ -4,7 +4,7 @@ import DSLeftNav from '../../components/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
 import FooterMessage from '../../components/FooterMessage';
-import { DSCheckbox } from '../../../node_modules/oskrhq-design-system/build/index.js'
+import { DSCheckbox } from 'oskrhq-design-system'
 import styled from 'styled-components'
 
 class CheckboxPage extends React.Component {
