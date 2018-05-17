@@ -112,8 +112,8 @@ const Typography = () => (
         <SectionCode>
           <Highlight className='scss'>
           {`.my-new-ugly-big-text {
-  font-size:   ds-font-size(display4, base);
-  line-height: ds-line-height(display4, base);
+  font-size:   ds-font-size(display4);
+  line-height: ds-line-height(display4);
   font-weight: ds-font-weight(display4, bold);
   color:       ds-color(secondary, 600);
 }`}
