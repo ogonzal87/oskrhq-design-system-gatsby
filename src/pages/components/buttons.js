@@ -69,8 +69,7 @@ const ButtonsPage = () => (
           perform a desired action. In this system they are a Presentational
           React Components that you can use by simply instantiate by creating a{" "}
           <code>DSButton</code> tag and passing attributes for type{" "}
-          <code>(string)</code>, size <code>(string)</code>, and a label{" "}
-          <code>(string)</code>. You can also use a Circle Button by
+          <code>(string)</code>, and size <code>(string)</code>. You can also use a Circle Button by
           instantiating a <code>DSButton</code> tag and passing attributes for
           icon <code>(string)</code> and type <code>(string)</code>. Check out
           the Iconography page as well.

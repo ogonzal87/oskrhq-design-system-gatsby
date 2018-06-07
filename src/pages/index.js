@@ -49,7 +49,7 @@ const IndexPage = () => (
           <PrincipleContainer>
             <img src={smallBrushImg} style={{width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)'}} />
             <span className="ds-display1-text-style ds-intro-principle-number">01.</span>
-            <p className="ds-subheading-text-style ds-intro-principle-title">SIGNIFICANT SIMPLICITY + BEAUTY</p>
+            <p className="ds-subheading-text-style ds-intro-principle-title">MEANINGFUL SIMPLICITY + BEAUTY</p>
 
             <p style={{width: '260px'}} className="ds-subheading-text-style">
               Yes. Simple and beautiful are always good but make sure it solves a problem first. 

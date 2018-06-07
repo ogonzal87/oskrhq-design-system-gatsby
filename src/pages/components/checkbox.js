@@ -59,7 +59,7 @@ class CheckboxPage extends React.Component {
               app. In this app they are a Presentational React Components that
               you can use by simply instantiate a <code>DSCheckbox</code> tag
               and passing attributes for name <code>(string)</code>, onChange{" "}
-              <code>(function)</code>, checked <code>(boolean)</code>, and label{" "}
+              <code>(function)</code>, checked <code>(boolean)</code>, and labelText{" "}
               <code>(string)</code>.
             </p>
 
