@@ -128,7 +128,7 @@ const Space = () => (
 
         <SectionCopy>
           <h4>Playground</h4>
-          <p className="ds-subheading-text-style">Feel free to play around with the utility funtions. Just scroll all the way to the bottom of the SCSS file, and create some shapes using the functions provided.</p>
+          <p className="ds-subheading-text-style">Feel free to play around with the utility functions. Just scroll all the way to the bottom of the SCSS file, and create some shapes using the functions provided.</p>
           <iframe height='265' scrolling='no' title='oskrhq-design-system-space' src='//codepen.io/ogonzal87/embed/qodxwN/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}}>See the Pen <a href='https://codepen.io/ogonzal87/pen/qodxwN/'>oskrhq-design-system-space</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
           </iframe>
         </SectionCopy>

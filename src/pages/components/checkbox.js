@@ -57,7 +57,7 @@ class CheckboxPage extends React.Component {
             <p className="ds-subheading-text-style">
               Checkboxes are tools the user has to communicate something to the
               app. In this app they are a Presentational React Components that
-              you can use by simply instantiate a <code>DSCheckbox</code> tag
+              you can use by simply instantiating a <code>DSCheckbox</code> tag
               and passing attributes for name <code>(string)</code>, onChange{" "}
               <code>(function)</code>, checked <code>(boolean)</code>, and labelText{" "}
               <code>(string)</code>.

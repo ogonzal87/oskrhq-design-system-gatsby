@@ -67,7 +67,7 @@ const ButtonsPage = () => (
         <p className="ds-subheading-text-style">
           Buttons are tools the user has to communicate something to the app and
           perform a desired action. In this system they are a Presentational
-          React Components that you can use by simply instantiate by creating a{" "}
+          React Components that you can use by simply instantiating a{" "}
           <code>DSButton</code> tag and passing attributes for type{" "}
           <code>(string)</code>, and size <code>(string)</code>. You can also use a Circle Button by
           instantiating a <code>DSButton</code> tag and passing attributes for
