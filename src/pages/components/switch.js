@@ -26,9 +26,9 @@ class SwitchPage extends React.Component {
           <div className="ds-container">
             <h1>Switch</h1>
 
-            <h3 className="subheading">
+            <h4 className="subheading">
               Binary switches toggles the state of a single settings option.{" "}
-            </h3>
+            </h4>
 
             <div className="ds-col-container">
               <div className="ds-col-6">
@@ -49,7 +49,7 @@ class SwitchPage extends React.Component {
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p className="ds-subheading-text-style">
+            <p  >
               Switches are tools the user has to communicate something to the
               app. In this system they are a Presentational React Components
               that you can use by simply instantiate a <code>DSSwitch</code> tag

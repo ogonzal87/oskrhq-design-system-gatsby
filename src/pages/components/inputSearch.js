@@ -15,9 +15,9 @@ const InputSearchPage = () => (
       <div className="ds-container">
         <h1>Input Search</h1>
 
-        <h3 className="subheading">
+        <h4 className="subheading">
           Search Inputs allow users to search data matching a value.
-        </h3>
+        </h4>
 
         <DSInputSearch placeholder="Search Users" autoFocus />
 
@@ -29,7 +29,7 @@ const InputSearchPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p className="ds-subheading-text-style">
+        <p>
           Input Search is a Presentational React Component that you can use by
           simply instantiating a <code>DSInputSearch</code> tag and passing an
           optional attribute for placeholder <code>(string)</code>.

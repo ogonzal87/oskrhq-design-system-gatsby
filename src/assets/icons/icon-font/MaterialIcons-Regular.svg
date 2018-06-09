@@ -2197,7 +2197,7 @@ M64 320v85h85v-85h-85z" />
 d="M64 405h405v-128h-405v128zM213 107v149h256v-149h-256zM64 107v149h128v-149h-128z" />
     <glyph glyph-name="view_day" unicode="view_day" 
 d="M43 448h405v-64h-405v64zM427 341c12 0 21 -9 21 -21v-128c0 -12 -9 -21 -21 -21h-363c-12 0 -21 9 -21 21v128c0 12 9 21 21 21h363zM43 64v64h405v-64h-405z" />
-    <glyph glyph-name="view_headline" unicode="view_headline" 
+    <glyph glyph-name="view_h5" unicode="view_h5" 
 d="M85 405h342v-42h-342v42zM85 277v43h342v-43h-342zM85 107v42h342v-42h-342zM85 192v43h342v-43h-342z" />
     <glyph glyph-name="view_list" unicode="view_list" 
 d="M192 405h256v-85h-256v85zM192 107v85h256v-85h-256zM192 213v86h256v-86h-256zM85 320v85h86v-85h-86zM85 107v85h86v-85h-86zM85 213v86h86v-86h-86z" />

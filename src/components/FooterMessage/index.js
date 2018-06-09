@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const FooterMessage = () => (
   <div>
-    <span className="ds-subheading-text-style ds-footer-text">Made and maintained by <a href="https://oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
+    <span className="  ds-footer-text">Made and maintained by <a href="https://oskrhq.com/" target="_blank">Oscar Gonzalez</a></span>
   </div>
 );
 

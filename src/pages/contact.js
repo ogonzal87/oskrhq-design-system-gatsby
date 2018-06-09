@@ -8,7 +8,7 @@ import FooterMessage from '../components/FooterMessage'
 import styled from 'styled-components'
 
 const H2HeadingContactPage = styled.h2`
-  font-size: 24px;
+  font-size: 32px;
   line-height: normal;
   margin-bottom: 0;
 `;

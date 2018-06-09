@@ -3,6 +3,10 @@
   flex-direction: row;
   margin-bottom: 80px;
 
+  h5 {
+    margin-bottom: ds-space(loose);
+  }
+
   img {
     margin-bottom: 0;
   }

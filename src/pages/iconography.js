@@ -15,7 +15,7 @@ const Iconography = () => (
       <div className="ds-container">
         <h1>Iconography</h1>
         
-        <h3 className="subheading">Iconography is a visual language within the system that uses images and symbols to represent objects or meaning.</h3>
+        <h4 className="subheading">Iconography is a visual language within the system that uses images and symbols to represent objects or meaning.</h4>
 
         <div className="ds-iconography-specimen-container">
           <div className="ds-iconography-specimen">
@@ -49,11 +49,11 @@ const Iconography = () => (
         <div className="ds-col-container">
           
           <div className="ds-col-6">
-            <p className="ds-subheading-text-style">The system uses the Material Design Icon Font, although I am creating my own set using svg's and will be releasing them soon. To use Material Icons, you can just include a <code>i</code> tag in your mark up and add one of the utility classes above for sizing.</p>
+            <p  >The system uses the Material Design Icon Font, although I am creating my own set using svg's and will be releasing them soon. To use Material Icons, you can just include a <code>i</code> tag in your mark up and add one of the utility classes above for sizing.</p>
           </div>
 
           <div className="ds-col-6">
-            <p className="ds-subheading-text-style">☝🏽<strong>For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons website</a>.</strong></p>  
+            <p  >☝🏽<strong>For the full set of icons and names, check out <a href="https://material.io/icons/" target="_blank">Material Design's Icons website</a>.</strong></p>  
           </div>
 
         </div>

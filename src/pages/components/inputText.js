@@ -15,10 +15,10 @@ const InputTextPage = () => (
       <div className="ds-container">
         <h1>Input Text</h1>
 
-        <h3 className="subheading">
+        <h4 className="subheading">
           Text inputs allow users to input text and usually appear in forms. Use
           when the application requires content from the user.
-        </h3>
+        </h4>
 
         <div className="ds-col-container">
           <div className="ds-col-6">
@@ -31,7 +31,7 @@ const InputTextPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p className="ds-subheading-text-style">
+        <p>
           Input Fields are tools the user has to communicate something to the
           app. In the system they are a Presentational React Components that you
           can use by simply instantiating a <code>DSInputText</code> tag and

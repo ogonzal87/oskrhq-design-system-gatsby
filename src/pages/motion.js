@@ -18,7 +18,7 @@ const Motion = () => (
       <div className="ds-container">
         <h1>Motion</h1>
 
-        <h3 className="subheading"><i>“Animation offers a medium of story telling and visual entertainment which can bring pleasure and information.”</i> - Walter Elias Disney.</h3>
+        <h4 className="subheading"><i>“Animation offers a medium of story telling and visual entertainment which can bring pleasure and information.”</i> - Walter Elias Disney.</h4>
 
         <h4 className="ds-usage-title">Speed</h4>
         
@@ -101,14 +101,14 @@ const Motion = () => (
         <SectionCopy>
           <div className="ds-col-container">
             <div className="ds-col-6">
-              <p className="ds-typography-typeface ds-button-text-style">Animations Rationale</p>
-              <p className="ds-subheading-text-style">Animating digital objects gets us even closer to the physical world. My inspiration for it came from Disney and a book written by Frank Thomas and Ollie Jonhston — <i><a href="https://youtu.be/jn5OB12u8Pw" target="_blank">The Illusion of Life</a></i>. In it, they explain the 12 principles of animation which are taken from the laws of physics. Although Disney's animations are highly exaggerated (on purpose, of course), we can leverage these principles to create <i>illution of life</i> in out digital interfaces.</p>
+              <p className="ds-overline-text-style">Animations Rationale</p>
+              <p  >Animating digital objects gets us even closer to the physical world. My inspiration for it came from Disney and a book written by Frank Thomas and Ollie Jonhston — <i><a href="https://youtu.be/jn5OB12u8Pw" target="_blank">The Illusion of Life</a></i>. In it, they explain the 12 principles of animation which are taken from the laws of physics. Although Disney's animations are highly exaggerated (on purpose, of course), we can leverage these principles to create <i>illution of life</i> in out digital interfaces.</p>
             </div>
           
 
             <div className="ds-col-6">
-              <p className="ds-typography-typeface ds-button-text-style">Speed and easing</p>
-              <p className="ds-subheading-text-style">CSS transitions allows you to change property values smoothly (from one value to another), over a given duration. Speed is how fast or slow an element moves or changes. Easing explains how the element moves or changes through a given path.</p>
+              <p className="ds-overline-text-style">Speed and easing</p>
+              <p  >CSS transitions allows you to change property values smoothly (from one value to another), over a given duration. Speed is how fast or slow an element moves or changes. Easing explains how the element moves or changes through a given path.</p>
             </div>
           </div>
         </SectionCopy>
@@ -117,7 +117,7 @@ const Motion = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p className="ds-subheading-text-style">When declaring transitions, make use of <code>ds-duration($variable)</code> sass function for timing where <code>$variable</code> is a value in a predictive scale ranging from "slowest" to "fast", and <code>ds-easing($variable)</code> where <code>$variable</code> is a cubic bezier curve declaring the type of animation given a certain duration. You can choose from "base", "in", "out", "excite", "overshot", "anticipate". Hover the circles above to see the difference between each of them.</p>
+        <p  >When declaring transitions, make use of <code>ds-duration($variable)</code> sass function for timing where <code>$variable</code> is a value in a predictive scale ranging from "slowest" to "fast", and <code>ds-easing($variable)</code> where <code>$variable</code> is a cubic bezier curve declaring the type of animation given a certain duration. You can choose from "base", "in", "out", "excite", "overshot", "anticipate". Hover the circles above to see the difference between each of them.</p>
 
         <Highlight className='scss'>
           {`.my-new-cool-ball {

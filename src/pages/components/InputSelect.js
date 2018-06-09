@@ -15,9 +15,9 @@ const InputSelectPage = () => (
       <div className="ds-container">
         <h1>Input Select</h1>
 
-        <h3 className="subheading">
+        <h4 className="subheading">
           Select inputs allow users to select an option from a list.
-        </h3>
+        </h4>
 
         <div className="ds-col-container">
           <div className="ds-col-6">
@@ -44,7 +44,7 @@ const InputSelectPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p className="ds-subheading-text-style">
+        <p  >
           Input Selects are Presentational React Components that you can
           instantiating by <code>DSInputSelect</code> opening and closing tags
           and passing an attribute for label <code>(string)</code>. You are able

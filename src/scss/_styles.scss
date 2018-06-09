@@ -8,10 +8,6 @@
   grid-template-areas: 
     "ds-left-nav    ds-main-content";
   grid-gap: 0;
-  
-  code {
-    font-size: ds-font-size(subheading);
-  }
 
   .ds-col-container {
     .ds-col-1:first-child {

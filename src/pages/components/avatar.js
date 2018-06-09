@@ -33,7 +33,7 @@ class AvatarPage extends React.Component {
           <div className="ds-container">
             <h1>Avatar</h1>
 
-            <h3 className="subheading">Avatars allow a person's profile image to be displayed.</h3>
+            <h4 className="subheading">Avatars allow a person's profile image to be displayed.</h4>
 
             <SpecimenWrapper>
               <Specimen>
@@ -56,7 +56,7 @@ class AvatarPage extends React.Component {
 
             <h4 className="ds-usage-title">Usage</h4>
 
-            <p className="ds-subheading-text-style">Avatars are Presentational React Components that you can use by simply instantiating a <code>DSAvatar</code> tag and pass attributes for src <code>(string | obj)</code>, and size <code>(string)</code>.</p>
+            <p  >Avatars are Presentational React Components that you can use by simply instantiating a <code>DSAvatar</code> tag and pass attributes for src <code>(string | obj)</code>, and size <code>(string)</code>.</p>
 
             <Highlight className='jsx'>
               {`import Img from './img.jpg'

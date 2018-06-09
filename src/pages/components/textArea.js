@@ -15,7 +15,7 @@ const TextAreaPage = () => (
       <div className="ds-container">
         <h1>Text Area</h1>
 
-        <h3 className="subheading">Text Area fields allow users to input long text. Use when the application requires long-form content from the user.</h3>
+        <h4 className="subheading">Text Area fields allow users to input long text. Use when the application requires long-form content from the user.</h4>
 
         <div className="ds-col-container">
           <div className="ds-col-6">
@@ -28,7 +28,7 @@ const TextAreaPage = () => (
 
         <h4 className="ds-usage-title">Usage</h4>
 
-        <p className="ds-subheading-text-style">Text Areas are tools the user has to communicate something to the app. In this system, they are a Presentational React Components that you can use by simply instantiating a <code>DSTextArea</code> tag and passing attributes for label <code>(string)</code>, cols <code>(string)</code>, value <code>(string)</code> and a placeholder <code>(string)</code>.</p>
+        <p  >Text Areas are tools the user has to communicate something to the app. In this system, they are a Presentational React Components that you can use by simply instantiating a <code>DSTextArea</code> tag and passing attributes for label <code>(string)</code>, cols <code>(string)</code>, value <code>(string)</code> and a placeholder <code>(string)</code>.</p>
 
         <Highlight className='html'>
           {`<DSTextArea 
