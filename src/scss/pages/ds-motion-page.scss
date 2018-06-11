@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   height: 400px;
-  width: 100%;
+  width: 774px;
   justify-content: space-around;
 
   .ds-motion-specimen-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border: 1px dashed ds-color(neutral, 400);
 
     .ds-motion-specimen-code {
       display: flex;
