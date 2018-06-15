@@ -3733,6 +3733,12 @@ gatsby-plugin-favicon@^2.1.1:
     babel-runtime "^6.26.0"
     favicons-webpack-plugin "0.0.7"
 
+gatsby-plugin-google-analytics@^1.0.31:
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-1.0.31.tgz#eaf16e1809461b10badf12c05038c429745783c0"
+  dependencies:
+    babel-runtime "^6.26.0"
+
 gatsby-plugin-react-helmet@^2.0.5:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-2.0.6.tgz#974d7450aba01868b4800135120032941668ca51"
@@ -6287,11 +6293,9 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-oskrhq-design-system@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/oskrhq-design-system/-/oskrhq-design-system-1.0.6.tgz#5cb96a8fad9d44b064befba411531034f71be82a"
-  dependencies:
-    babel-preset-stage-3 "^6.24.1"
+oskrhq-design-system@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/oskrhq-design-system/-/oskrhq-design-system-3.0.2.tgz#e255bef1a1096bc73576e88fc619bf98eb031e80"
 
 p-finally@^1.0.0:
   version "1.0.0"
