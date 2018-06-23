@@ -86,7 +86,7 @@ const IndexPage = () => (
 
         <div className="ds-col-container">
           <div className="ds-col-6">
-            <p>OSKRHQ.DS is a Styleguide AND a Component Library written in React for both web and mobile. I created the system for myself to showcase my personal Brand but you can fork it and make it your own. Although this website consumes the system, the site of is just a face for what it really is. The magic is in the code which allows Design and Code to coexists in one sole language. All this, so that I can compose products from the same Brand Identity and Anatomy.</p>
+            <p>OSKRHQ.DS is a <i>themable</i> Styleguide AND a Component Library written in React for both web and mobile. I created the system for myself to showcase my personal Brand but you can fork it and make it your own. Although this website consumes the system, the site of is just a face for what it really is. The magic is in the code which allows Design and Code to coexists in one sole language. All this, so that I can compose products from the same Brand Identity and Anatomy.</p>
 
             <p>Every UI element you see here was composed of the same 5 foundational elements or what I call <i><a href="https://medium.muz.li/the-anatomy-of-all-digital-interfaces-11d43f55eaf" target="_blank">The Anatomy of UI</a></i>: Color, Typography, Space, Motion, and Depth.</p>
           </div>
