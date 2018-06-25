@@ -7,6 +7,7 @@ import FooterMessage from '../components/FooterMessage'
 import BrushSegment from '../assets/brush/brush-segment.png'
 import smallBrushImg from '../assets/brush/small-brush.png'
 import styled from 'styled-components'
+import ThemingGIF from '../assets/theming/theming.gif'
 
 const PrinciplesSection = styled.div`
   display: flex;
@@ -35,7 +36,7 @@ const IndexPage = () => (
         <h4 className="subheading">A mostly reasonable although opinionated approach to building responsive Digital Interfaces sharing the same anatomy.</h4>
 
         <img src={Splash} className="ds-intro-splash" />
-        
+
         <div className="ds-circle-arrow-view-more">
           <i className="material-icons ds-icon-small">expand_more</i>
         </div>
@@ -47,37 +48,37 @@ const IndexPage = () => (
 
         <PrinciplesSection>
           <PrincipleContainer>
-            <img src={smallBrushImg} style={{width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)'}} />
+            <img src={smallBrushImg} style={{ width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)' }} />
             <span className="ds-H4-text-style ds-intro-principle-number">01.</span>
             <p className="ds-intro-principle-title">MEANINGFUL SIMPLICITY + BEAUTY</p>
 
-            <p style={{width: '260px'}}>
-              Yes. Simple and beautiful are always good but make sure it solves a problem first. 
+            <p style={{ width: '260px' }}>
+              Yes. Simple and beautiful are always good but make sure it solves a problem first.
             </p>
           </PrincipleContainer>
-          
+
           <PrincipleContainer>
-            <img src={smallBrushImg} style={{width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)'}} />
+            <img src={smallBrushImg} style={{ width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)' }} />
             <span className="ds-H4-text-style ds-intro-principle-number">02.</span>
             <p className="ds-intro-principle-title">BORROW FROM NATURE</p>
 
-            <p style={{width: '260px'}}>
-              Nature is already perfect. Use natural forces to influence the user's senses through code and design. 
+            <p style={{ width: '260px' }}>
+              Nature is already perfect. Use natural forces to influence the user's senses through code and design.
             </p>
           </PrincipleContainer>
 
           <PrincipleContainer>
-            <img src={smallBrushImg} style={{width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)'}} />
+            <img src={smallBrushImg} style={{ width: '96px', height: '37px', margin: '24px 0 8px 0', transform: 'rotate(-20deg)' }} />
             <span className="ds-H4-text-style ds-intro-principle-number">03.</span>
             <p className="ds-intro-principle-title">BE THE BRAND</p>
 
-            <p style={{width: '260px'}}>
-              The success of my message is rooted in the <i>consistency</i> of my personal Brand. 
+            <p style={{ width: '260px' }}>
+              The success of my message is rooted in the <i>consistency</i> of my personal Brand.
             </p>
           </PrincipleContainer>
         </PrinciplesSection>
-        
-        
+
+
         <img src={BrushSegment} className="ds-intro-brush-segment-img" />
       </div>
 
@@ -110,9 +111,9 @@ const IndexPage = () => (
             <p className="ds-H6-text-style">Design Systems are a <span className="ds-accent-text">Visual Language</span>. A language that allows designers and developers to communicate with one another, amongst each other, and it allows your <span className="ds-accent-text">brand</span> to communicate with your users through carefully crafted and hopefully cohesive experiences.</p>
           </div>
         </div>
-      
+
       </div>
-      
+
 
       <div className="ds-intro-second-section-container">
         <p className="ds-overline-text-style">How Do I use it?</p>
@@ -127,7 +128,19 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      
+
+      <div className="ds-intro-second-section-container">
+        <p className="ds-overline-text-style">Can I theme it?</p>
+
+        <div className="ds-col-container">
+          <div className="ds-col-12">
+            <p>Yep. OSKRHQ.DS supports theming out of the box. You can fork the code repo in Github, change a couple of values in one place and be able to have a Design System with your unique personality and brand identity. Below you can see theming in action shifting from one theme to another. For more info, checkout the <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">repo</a>.</p>
+          </div>
+
+          <img src={ThemingGIF} alt="" />
+        </div>
+      </div>
+
       <FooterMessage />
 
     </div>

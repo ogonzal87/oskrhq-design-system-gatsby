@@ -23,12 +23,12 @@ const Space = () => (
       <div className="ds-container">
         <h1>Space</h1>
 
-        <h4 className="subheading">Using a geometric progression scale to create consistency and rhythm in space.</h4> 
+        <h4 className="subheading">Using a geometric progression scale to create consistency and rhythm in space.</h4>
 
         <h4>Fixed Space</h4>
 
         <div className="ds-col-container">
-          
+
           <div className="ds-col-6">
             <p  >Digital Screens are made of a grid of teeny-tiny pixels. Kinda like a <a href="https://youtu.be/UdWCUr1FDqU?t=51s" target="_blank">microscopic net</a>. Following this mental model, I use a combination of a Soft and Hard 8-Point-Grid System. This means that space uses multiples of 8px to define dimensions, padding, and margin of both block and inline elements. This ensures all measures follow the same spacing rules and avoids many headaches when designers are discussing space with developers.</p>
           </div>
@@ -40,7 +40,7 @@ const Space = () => (
           </div>
 
         </div>
-        
+
         <img className="ds-space-page-grid-example-img" src={gridExample2} />
 
         <div className="ds-space-space-specimens-container">
@@ -81,23 +81,23 @@ const Space = () => (
 
           <SectionColumns>
             <div className="ds-col-container ds-space-col-specimen-container">
-            <div className="ds-box ds-col-12"><code>.ds-col-12</code></div>
-            <div className="ds-box ds-col-6"><code>.ds-col-6</code></div>
-            <div className="ds-box ds-col-6"><code>.ds-col-6</code></div>
-            <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
-            <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
-            <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
-            <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
-            <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
-            <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
-            <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
-            <div className="ds-box ds-col-8"><code>.ds-col-8</code></div>
-            <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
+              <div className="ds-box ds-col-12" style={{ marginLeft: '40px' }}><code>.ds-col-12</code></div>
+              <div className="ds-box ds-col-6"><code>.ds-col-6</code></div>
+              <div className="ds-box ds-col-6"><code>.ds-col-6</code></div>
+              <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
+              <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
+              <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
+              <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
+              <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
+              <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
+              <div className="ds-box ds-col-3"><code>.ds-col-3</code></div>
+              <div className="ds-box ds-col-8"><code>.ds-col-8</code></div>
+              <div className="ds-box ds-col-4"><code>.ds-col-4</code></div>
             </div>
           </SectionColumns>
         </SectionCopy>
 
-        
+
 
         <SectionCopy>
           <h4 className="ds-usage-title">Usage</h4>
@@ -105,9 +105,9 @@ const Space = () => (
           <p  >For fixed spacing, make use of the sass function <code>ds-space($variable)</code> where <code>$variable</code> is either extra-tight (4px), tight (8px), base (16px), bit-loose (24px), loose (32px), extra-loose (48px), or super-loose (64px). In most cases, you will use Fluid Space to layout content and elements on the screen, and Fixed Spacing when composing these elements.</p>
         </SectionCopy>
 
-        
+
         <Highlight className='html'>
-{`<div class="ds-col-container">
+          {`<div class="ds-col-container">
   <div class="ds-box ds-col-6">
     <div class="ball"></div>
   </div>
@@ -118,7 +118,7 @@ const Space = () => (
         </Highlight>
 
         <Highlight className='scss'>
-{`.ball {
+          {`.ball {
   height: ds-space(extra-loose);
   width: ds-space(extra-loose);
   border-radius: 50%;
@@ -129,7 +129,7 @@ const Space = () => (
         <SectionCopy>
           <h4>Playground</h4>
           <p  >Feel free to play around with the utility functions. Just scroll all the way to the bottom of the SCSS file, and create some shapes using the functions provided.</p>
-          <iframe height='265' scrolling='no' title='oskrhq-design-system-space' src='//codepen.io/ogonzal87/embed/qodxwN/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{width: '100%'}}>See the Pen <a href='https://codepen.io/ogonzal87/pen/qodxwN/'>oskrhq-design-system-space</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
+          <iframe height='265' scrolling='no' title='oskrhq-design-system-space' src='//codepen.io/ogonzal87/embed/qodxwN/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true' style={{ width: '100%' }}>See the Pen <a href='https://codepen.io/ogonzal87/pen/qodxwN/'>oskrhq-design-system-space</a> by Oscar (<a href='https://codepen.io/ogonzal87'>@ogonzal87</a>) on <a href='https://codepen.io'>CodePen</a>.
           </iframe>
         </SectionCopy>
 
