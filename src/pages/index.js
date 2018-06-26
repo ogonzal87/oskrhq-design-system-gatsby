@@ -93,7 +93,7 @@ const IndexPage = () => (
           </div>
 
           <div className="ds-col-6">
-            <p className="ds-H6-text-style"><span>Design System (noun)</span>: A <span className="ds-accent-text">product</span> made of living guidelines that communicate a <span className="ds-accent-text">unified</span> set of UX and design decisions which promotes <span className="ds-accent-text">harmony</span> across various media outputs.</p>
+            <p className="ds-H6-text-style"><span>Design System (noun)</span>: A <span className="ds-accent-text">product</span> made of living guidelines that communicates a <span className="ds-accent-text">unified</span> set of UX and design decisions which promotes <span className="ds-accent-text">harmony</span> across various media outputs.</p>
           </div>
         </div>
 
