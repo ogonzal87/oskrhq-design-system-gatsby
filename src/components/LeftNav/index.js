@@ -29,7 +29,7 @@ class DSLeftNav extends React.Component {
           <li><NavLink exact to="/motion/" activeClassName="ds-nav-link-isActive">Motion</NavLink></li>
           <li><NavLink exact to="/iconography/" activeClassName="ds-nav-link-isActive">Iconography</NavLink></li>
           <li onClick={this.toggleSublist}><a className="ds-left-nav-component-anchor">Components</a>
-            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || (typeof window !== 'undefined' && window.location.href.indexOf("components") > -1) ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
+            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || (typeof window !== 'undefined' && window.location.href.includes("components")) ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
               <li><NavLink exact to="/components/Avatar/" activeClassName="ds-nav-link-isActive">Avatar</NavLink></li>
               <li><NavLink exact to="/components/buttons/" activeClassName="ds-nav-link-isActive">Button</NavLink></li>
               <li><NavLink exact to="/components/Checkbox/" activeClassName="ds-nav-link-isActive">Checkbox</NavLink></li>
