@@ -137,7 +137,7 @@ const IndexPage = () => (
             <p>Yep. OSKRHQ.DS supports theming out of the box. You can fork the code repo in Github, change a couple of values in one place and be able to have a Design System with your unique personality and brand identity. Below you can see theming in action shifting from one theme to another. For more info, checkout the <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">repo</a>.</p>
           </div>
 
-          <img src={ThemingGIF} alt="" />
+          <iframe src="https://player.vimeo.com/video/282266378" width="1000" height="800" frameBorder="0" mozAllowFullScreen allowFullScreen></iframe>
         </div>
       </div>
 
