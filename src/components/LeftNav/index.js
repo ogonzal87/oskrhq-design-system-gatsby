@@ -41,6 +41,7 @@ class DSLeftNav extends React.Component {
               <li><NavLink exact to="/components/TextArea/" activeClassName="ds-nav-link-isActive">Text Area</NavLink></li>
             </ul>
           </li>
+          <li><NavLink exact to="/playground/" activeClassName="ds-nav-link-isActive">Playground</NavLink></li>
           <li><NavLink exact to="/contact/" activeClassName="ds-nav-link-isActive">Contact</NavLink></li>
         </ul>
 
