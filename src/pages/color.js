@@ -59,8 +59,8 @@ const Color = () => (
               <p className="ds-color-page-body  "><strong>Brand Colors</strong> are the personality of the brand. They should be used as accent elements such as primary buttons, CTA's and links. <strong>Feedback Colors</strong> are used to communicate Status to the user and <strong>Neutral Colors</strong> are used for things like text, borders, shadows, background colors, etc.</p>
             </div>
           </div>
-    
-          <div className="ds-col-container" style={{marginTop: '32px'}}>
+
+          <div className="ds-col-container" style={{ marginTop: '32px' }}>
             <div className="ds-col-6">
               <p className="ds-overline-text-style">Color Palette Rationale</p>
               <p>I wanted colors to be an extension of my character and the user to hopefully feel that. I chose an electric purple because I thought it matched my energetic personality. Since I tend to gravitate to calm and minimalistic design techniques, I contrasted the brand colors with light-gray backgrounds, letting them act as accents in order to instigate user interaction.</p>
@@ -76,10 +76,30 @@ const Color = () => (
 
         <SectionCode>
           <Highlight className='scss'>
-          {`.my-new-cool-box {
+            {`.my-new-cool-box {
   background: ds-color(tertiary, 400);
   width:      100%;
   height:     ds-space(super-loose);
+}`}
+          </Highlight>
+        </SectionCode>
+
+
+        <h5>Color Contrast</h5>
+
+        <p>Applies a color from the palette to a CSS property based on a given background color in accordance with accessibility standards. `$background-color` refers to the background color in which the foreground color is going to sit. `$dark-color` (Optional) refers to the dark color you wish to display if there is enough contrast. `$light-color` (Optional) refers to the light color you wish to display if there is enough contrast. If neither `$dark-color` or $light-color` are specified, the colors will default to `ds-color(neutral, 700)` and `ds-color(neutral, 000)` respectively.</p>
+
+      <SectionCode>
+          <Highlight className='scss'>
+            {`$button-background-color: ds-color(primary, 400);
+$button-text-color-dark: ds-color(primary, 600);
+$button-text-color-light: ds-color(primary, 200);
+        
+.button {
+  background-color: $button-background-color; 
+  color: ds-color-contrast($button-background-color, 
+                            $button-text-color-dark, 
+                            $button-text-color-light); // returns a hex value with enough contrast for its background
 }`}
           </Highlight>
         </SectionCode>
