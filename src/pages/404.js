@@ -19,7 +19,7 @@ const NotFoundPage = () => (
   <div className="ds-main-content" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexFlow: 'column', height: '100vh' }}>
 
     <Text>
-      <h1>SIKEEE 404!</h1>
+      <h1>SIIIIKE 404!</h1>
       <h5>You arrived to a place that doesn&#39;t exist...</h5>
       <Link to="/" >
         <DSButton style={{ float: 'right', marginTop: '40px' }}
