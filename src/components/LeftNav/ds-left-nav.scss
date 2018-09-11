@@ -28,8 +28,13 @@
     margin-bottom: 20px;
     
     a {
+      text-decoration: none;
       font-size: ds-font-size(H6);
       color: ds-color(neutral, 600);
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 
