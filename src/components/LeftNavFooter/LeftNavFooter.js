@@ -1,7 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import './ds-left-nav-footer.scss'
-import ProfilePic from '../../assets/profile-pic/profile-pic.jpeg'
 import SketchImg from '../../assets/logo/sketch-brand-mark.png'
 import GithubImg from '../../assets/logo/github-brand-mark.png'
 

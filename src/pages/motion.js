@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/FooterMessage';
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
 
 const SectionCopy = styled.div`
@@ -21,7 +20,7 @@ const Motion = () => (
         <h4 className="subheading"><i>“Animation offers a medium of story telling and visual entertainment which can bring pleasure and information.”</i> - Walter Elias Disney.</h4>
 
         <h4 className="ds-usage-title">Speed</h4>
-        
+
         <div className="ds-motion-specimens-container">
           <div className="ds-motion-specimen-container">
             <div className="ds-motion-specimen-code">
@@ -104,7 +103,7 @@ const Motion = () => (
               <p className="ds-overline-text-style">Animations Rationale</p>
               <p  >Animating digital objects gets us even closer to the physical world. My inspiration for it came from Disney and a book written by Frank Thomas and Ollie Jonhston — <i><a href="https://youtu.be/jn5OB12u8Pw" target="_blank">The Illusion of Life</a></i>. In it, they explain the 12 principles of animation which are taken from the laws of physics. Although Disney's animations are highly exaggerated (on purpose, of course), we can leverage these principles to create <i>illution of life</i> in out digital interfaces.</p>
             </div>
-          
+
 
             <div className="ds-col-6">
               <p className="ds-overline-text-style">Speed and easing</p>

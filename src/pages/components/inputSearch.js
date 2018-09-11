@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../../components/LeftNav'
+import DSLeftNav from '../../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
-import FooterMessage from '../../components/FooterMessage';
+import FooterMessage from '../../components/FooterMessage/FooterMessage'
 import { DSInputSearch } from 'oskrhq-design-system'
 
 

@@ -1,13 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/LeftNav/LeftNav'
 import logoBrush from '../assets/brush/brush.svg'
 import Splash from '../assets/brush/splash.svg'
-import FooterMessage from '../components/FooterMessage'
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import BrushSegment from '../assets/brush/brush-segment.png'
 import smallBrushImg from '../assets/brush/small-brush.png'
 import styled from 'styled-components'
-import ThemingGIF from '../assets/theming/theming.gif'
 
 const PrinciplesSection = styled.div`
   display: flex;
@@ -137,7 +135,7 @@ const IndexPage = () => (
             <p>Yep. OSKRHQ.DS supports theming out of the box. You can fork the code repo in Github, change a couple of values in one place and be able to have a Design System with your unique personality and brand identity. Below you can see theming in action shifting from one theme to another. For more info, checkout the <a href="https://github.com/ogonzal87/oskrhq-design-system" target="_blank">repo</a>.</p>
           </div>
 
-          <iframe src="https://player.vimeo.com/video/282266378" width="1000" height="800" frameBorder="0" mozAllowFullScreen allowFullScreen></iframe>
+          <iframe src="https://player.vimeo.com/video/282266378" width="1000" height="800" frameBorder="0" allowFullScreen></iframe>
         </div>
       </div>
 

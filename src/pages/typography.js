@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/FooterMessage'
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
 
 const SectionCopy = styled.div`
@@ -106,7 +105,7 @@ const Typography = () => (
               <p className="ds-overline-text-style">Typeface Rationale</p>
               <p  >No. I did not choose <i>Lato</i> because it is a free Typeface (although it did influence my decision 😬). I really chose it because I wanted a Sans Serif that looked both professional and energetic (more energetic than professional, though), was readable in both web and mobile with fast render speeds and had support for Spanish Glyphs. I plan on translating the System so that was important for me. I considered using Libre Baskerville for Headings and Futura for body text but making them work under Material's Type scale just did not cut it.</p>
             </div>
-          
+
 
             <div className="ds-col-6">
               <p className="ds-overline-text-style">Type Scale Rationale</p>
@@ -118,10 +117,10 @@ const Typography = () => (
         <h4>Usage</h4>
 
         <p  >Every typographic style defined above already has a utility class you can use such as <code>.ds-H3-text-style</code>. Although not advised, you can create your own from a standard base of utility sass functions; <code>ds-font-size()</code>, <code>ds-font-weight()</code>, <code>ds-line-height()</code>, and <code>ds-color()</code>. When creating your own combination, keep in mind that these have to complement each other, specially line-height and font-size.</p>
-        
+
         <SectionCode>
           <Highlight className='scss'>
-          {`.my-new-ugly-big-text {
+            {`.my-new-ugly-big-text {
   font-size:   ds-font-size(H1);
   line-height: ds-line-height(H1);
   font-weight: ds-font-weight(bold);

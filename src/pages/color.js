@@ -1,12 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/LeftNav/LeftNav'
 import PrimaryColorsImg from '../assets/color-page/ds-primary-colors.png'
 import FeedbackColorsImg from '../assets/color-page/ds-feedback-colors.png'
 import NeutralColorsImg from '../assets/color-page/ds-neutral-colors.png'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/FooterMessage'
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
 
 const SectionCopy = styled.div`
@@ -89,7 +88,7 @@ const Color = () => (
 
         <p>Applies a color from the palette to a CSS property based on a given background color in accordance with accessibility standards. `$background-color` refers to the background color in which the foreground color is going to sit. `$dark-color` (Optional) refers to the dark color you wish to display if there is enough contrast. `$light-color` (Optional) refers to the light color you wish to display if there is enough contrast. If neither `$dark-color` or $light-color` are specified, the colors will default to `ds-color(neutral, 700)` and `ds-color(neutral, 000)` respectively.</p>
 
-      <SectionCode>
+        <SectionCode>
           <Highlight className='scss'>
             {`$button-background-color: ds-color(primary, 400);
 $button-text-color-dark: ds-color(primary, 600);

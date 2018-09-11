@@ -1,15 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Logo from '../../assets/logo/ds-logo.svg'
-import DSLeftNavFooter from '../LeftNavFooter'
+import DSLeftNavFooter from '../LeftNavFooter/LeftNavFooter'
 import { NavLink } from 'react-router-dom'
-import { withPrefix } from "gatsby-link"
 
 class DSLeftNav extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { sublistIsShowing: false };
-  }
+
+  state = { sublistIsShowing: false }
 
   toggleSublist = () => {
     this.setState({ sublistIsShowing: !this.state.sublistIsShowing });
@@ -18,7 +15,9 @@ class DSLeftNav extends React.Component {
   render() {
     return (
       <div className="ds-left-nav">
-        <img src={Logo} />
+        <Link to="/">
+          <img src={Logo} />
+        </Link>
 
         <ul>
           <li><NavLink exact to="/" activeClassName="ds-nav-link-isActive">Introduction</NavLink></li>
@@ -29,7 +28,7 @@ class DSLeftNav extends React.Component {
           <li><NavLink exact to="/motion/" activeClassName="ds-nav-link-isActive">Motion</NavLink></li>
           <li><NavLink exact to="/iconography/" activeClassName="ds-nav-link-isActive">Iconography</NavLink></li>
           <li onClick={this.toggleSublist}><a className="ds-left-nav-component-anchor">Components</a>
-            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || (typeof window !== 'undefined' && window.location.href.includes("components")) ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
+            <ul className={`ds-leftnav-subnav-list ${this.state.sublistIsShowing || location.pathname.includes("components") ? 'ds-leftnav-subnav-list-is-showing' : ''}`}>
               <li><NavLink exact to="/components/Avatar/" activeClassName="ds-nav-link-isActive">Avatar</NavLink></li>
               <li><NavLink exact to="/components/buttons/" activeClassName="ds-nav-link-isActive">Button</NavLink></li>
               <li><NavLink exact to="/components/Checkbox/" activeClassName="ds-nav-link-isActive">Checkbox</NavLink></li>
@@ -50,5 +49,5 @@ class DSLeftNav extends React.Component {
     );
   };
 };
-  
+
 export default DSLeftNav;

@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../../components/LeftNav'
+import DSLeftNav from '../../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import { DSAvatar } from 'oskrhq-design-system'
-import FooterMessage from '../../components/FooterMessage';
+import FooterMessage from '../../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
 import MichaelScottImg from '../../assets/avatar-page/michael-scott.jpg'
 
@@ -37,9 +36,9 @@ class AvatarPage extends React.Component {
 
             <SpecimenWrapper>
               <Specimen>
-                <DSAvatar src={MichaelScottImg} size="small" /> 
+                <DSAvatar src={MichaelScottImg} size="small" />
                 <code style={{ marginTop: '8px' }}>small</code>
-              </Specimen>  
+              </Specimen>
               <Specimen>
                 <DSAvatar src={MichaelScottImg} />
                 <code style={{ marginTop: '8px' }}>base</code>
@@ -47,11 +46,11 @@ class AvatarPage extends React.Component {
               <Specimen>
                 <DSAvatar src={MichaelScottImg} size="medium" />
                 <code style={{ marginTop: '8px' }}>medium</code>
-              </Specimen>  
+              </Specimen>
               <Specimen>
                 <DSAvatar src={MichaelScottImg} size="large" />
                 <code style={{ marginTop: '8px' }}>large</code>
-              </Specimen>  
+              </Specimen>
             </SpecimenWrapper>
 
             <h4 className="ds-usage-title">Usage</h4>

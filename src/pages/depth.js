@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/FooterMessage';
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
 
 const SectionCopy = styled.div`
@@ -54,9 +53,9 @@ const Depth = () => (
           </div>
 
 
-          
+
         </SectionCopy>
-        
+
 
         <SectionCopy>
           <h4 className="ds-usage-title">Usage</h4>
@@ -64,7 +63,7 @@ const Depth = () => (
           <p  >By making use of the sass function <code>ds-depth($range)</code>, where <code>$range</code> is a value from 100 through 500, you can create levels of visual hierarchy. The higher the number, the more elevated an item will appear. Use this when you are trying to emphasize sections of UI like containers or buttons.</p>
         </SectionCopy>
 
-        
+
 
         <Highlight className='scss'>
           {`.my-new-cool-container-coming-at-you {
@@ -83,7 +82,7 @@ const Depth = () => (
 
         </SectionCodePen>
 
-        
+
       </div>
 
       <FooterMessage />

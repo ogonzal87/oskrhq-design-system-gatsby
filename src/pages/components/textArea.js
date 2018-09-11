@@ -1,10 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../../components/LeftNav'
+import DSLeftNav from '../../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
-import FooterMessage from '../../components/FooterMessage';
-import styled from 'styled-components'
+import FooterMessage from '../../components/FooterMessage/FooterMessage'
 import { DSTextArea } from 'oskrhq-design-system'
 
 const TextAreaPage = () => (
@@ -19,7 +17,7 @@ const TextAreaPage = () => (
 
         <div className="ds-col-container">
           <div className="ds-col-6">
-            <DSTextArea label="Comment (Optional)" placeholder="placeholder..." rows="4"/>
+            <DSTextArea label="Comment (Optional)" placeholder="placeholder..." rows="4" />
           </div>
           <div className="ds-col-6">
             <DSTextArea label="Comment (Optional)" value="Lorem ipsum dolor amet blue bottle street art iceland health goth chartreuse snackwave cornhole drinking vinegar microdosing XOXO." rows="4" />
@@ -42,8 +40,8 @@ const TextAreaPage = () => (
 
       <FooterMessage />
 
-      </div>
     </div>
+  </div>
 )
 
 export default TextAreaPage;

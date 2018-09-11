@@ -1,10 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../components/LeftNav'
+import DSLeftNav from '../components/LeftNav/LeftNav'
 import gridExample2 from '../assets/space-page/gird-example2.jpg'
 import Highlight from 'react-highlight'
 import '../../node_modules/highlight.js/styles/tomorrow-night-eighties.css'
-import FooterMessage from '../components/FooterMessage'
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
 
 const SectionColumns = styled.div`

@@ -1,9 +1,19 @@
 import React from 'react'
-import DSLeftNav from '../components/LeftNav'
-import FooterMessage from '../components/FooterMessage'
+import DSLeftNav from '../components/LeftNav/LeftNav'
+import FooterMessage from '../components/FooterMessage/FooterMessage'
 import styled from 'styled-components'
-import { DSButton, DSInputText, DSInputSelect, DSInputSearch, DSCheckbox, DSRadio, DSTextArea, DSSwitch, DSAvatar } from 'oskrhq-design-system';
 import MichaelScottImg from './../assets/avatar-page/michael-scott.jpg'
+import {
+  DSButton,
+  DSInputText,
+  DSInputSelect,
+  DSInputSearch,
+  DSCheckbox,
+  DSRadio,
+  DSTextArea,
+  DSSwitch,
+  DSAvatar
+} from 'oskrhq-design-system';
 
 const PlaygroundPageContent = styled.div` 
   max-width: 714px;

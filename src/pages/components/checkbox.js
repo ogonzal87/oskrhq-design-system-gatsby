@@ -1,9 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import DSLeftNav from '../../components/LeftNav'
+import DSLeftNav from '../../components/LeftNav/LeftNav'
 import Highlight from 'react-highlight'
 import '../../../node_modules/highlight.js/styles/dracula.css'
-import FooterMessage from '../../components/FooterMessage';
+import FooterMessage from '../../components/FooterMessage/FooterMessage'
 import { DSCheckbox } from 'oskrhq-design-system'
 import styled from 'styled-components'
 
@@ -42,7 +41,7 @@ class CheckboxPage extends React.Component {
                 />
               </div>
               <div className="ds-col-6">
-                <DSCheckbox  
+                <DSCheckbox
                   name="checkboxB"
                   labelText="Checked Checkbox"
                   onChange={this.handleChange('checkboxB')}
