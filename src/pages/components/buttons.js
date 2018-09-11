@@ -74,16 +74,17 @@ const ButtonsPage = () => (
           the Iconography page as well.
         </p>
 
-        <Highlight className="html">
+        <Highlight className="jsx">
           {`<DSButton 
   type="primary"
   size="fluid"
-  onClick="doSomething">
+  onClick={doSomething}>
   Save
 </DSButton>
 
 
 <DSButton
+  onClick={doSomething}
   circle  
   icon="face" 
   type="primary"

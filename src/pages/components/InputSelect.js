@@ -49,7 +49,7 @@ const InputSelectPage = () => (
           to transclude the options.
         </p>
 
-        <Highlight className="html">
+        <Highlight className="jsx">
           {`<DSInputSelect label="Marital Status">
   <option value="" selected>Choose...</option>
   <option value="">This is an Item</option>

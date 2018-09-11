@@ -38,7 +38,7 @@ const InputTextPage = () => (
           placeholder <code>(string)</code>.
         </p>
 
-        <Highlight className="html">
+        <Highlight className="jsx">
           {`<DSInputText 
   label="Full Name"
   placeholder="primary"

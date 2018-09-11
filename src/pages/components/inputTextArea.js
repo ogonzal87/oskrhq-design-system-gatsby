@@ -46,7 +46,7 @@ const TextAreaPage = () => (
           <code>(string)</code>.
         </p>
 
-        <Highlight className="html">
+        <Highlight className="jsx">
           {`<DSTextArea 
   label="Comment (Optional)"
   placeholder="Type..."

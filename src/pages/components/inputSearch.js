@@ -34,7 +34,7 @@ const InputSearchPage = () => (
           optional attribute for placeholder <code>(string)</code>.
         </p>
 
-        <Highlight className="html">
+        <Highlight className="jsx">
           {`<DSInputSearch 
   placeholder="Search List"
   onChange="doSomething"

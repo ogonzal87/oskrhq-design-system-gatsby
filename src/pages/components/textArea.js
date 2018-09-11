@@ -28,7 +28,7 @@ const TextAreaPage = () => (
 
         <p  >Text Areas are tools the user has to communicate something to the app. In this system, they are a Presentational React Components that you can use by simply instantiating a <code>DSTextArea</code> tag and passing attributes for label <code>(string)</code>, cols <code>(string)</code>, value <code>(string)</code> and a placeholder <code>(string)</code>.</p>
 
-        <Highlight className='html'>
+        <Highlight className='jsx'>
           {`<DSTextArea 
   label="Comment (Optional)"
   placeholder="Type..."
