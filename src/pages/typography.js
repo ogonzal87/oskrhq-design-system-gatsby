@@ -157,11 +157,11 @@ const Typography = () => (
             <div className="ds-col-6">
               <p className="ds-overline-text-style">Type Scale Rationale</p>
               <p>
-                Type Scales that work well on any screen are not as simple as
-                just arbitrarily applying a Golden Ratio (1.6) or a Perfect
-                Fifth (1.5). This scale is extensible enough for both web and
-                mobile and uses an 8-point grid, so type snaps into my spacing
-                system as well.
+                Crafting Type Scales for Design Systems that need to work well
+                on any screen, are not as easy as just arbitrarily applying a
+                Golden Ratio (1.6) or a Perfect Fifth (1.5) to a base font size.
+                This scale is extensible enough for both web and mobile and uses
+                an 8-point grid, so type snaps into my spacing system as well.
               </p>
             </div>
           </div>
